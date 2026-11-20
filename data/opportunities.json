@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-20T06:11:27+00:00",
-  "total": 234,
+  "last_updated": "2026-11-20T06:12:47+00:00",
+  "total": 233,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -13,7 +13,7 @@
    },
    "hackerearth": {
     "status": "ok",
-    "count": 3
+    "count": 2
    },
    "devfolio": {
     "status": "ok",
@@ -1916,27 +1916,6 @@
    "verified": true
   },
   {
-   "id": "564ad779a05b",
-   "title": "Cepheid Intern Hiring Challenge 2026",
-   "organiser": "HackerEarth",
-   "type": "competition",
-   "fields": [
-    "healthcare-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2026-11-27",
-   "end_date": "2026-12-06",
-   "deadline": "2026-12-06",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.hackerearth.com/challenges/competitive/cepheid-hiring-challenge-2026-4/",
-   "source": "hackerearth",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "b6dccc9108c9",
    "title": "Spectrum 1.0 – 24 Hour National Level Hackathon",
    "organiser": "Guru Nanak Dev Engineering College Bidar",
@@ -3823,7 +3802,8 @@
    "type": "workshop",
    "fields": [
     "bioinformatics",
-    "genomics"
+    "genomics",
+    "transcriptomics"
    ],
    "mode": "offline",
    "location": "",
