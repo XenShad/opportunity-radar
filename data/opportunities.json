@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-20T06:12:47+00:00",
-  "total": 233,
+  "last_updated": "2026-11-20T15:29:51+00:00",
+  "total": 234,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -9,7 +9,7 @@
    },
    "unstop": {
     "status": "ok",
-    "count": 67
+    "count": 68
    },
    "hackerearth": {
     "status": "ok",
@@ -122,27 +122,6 @@
  },
  "items": [
   {
-   "id": "ab9d3437d19f",
-   "title": "AI Kaushal Hackathon 2026",
-   "organiser": "Indian Institute of Information Technology (IIIT), Lucknow",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Lucknow, Uttar Pradesh, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-09",
-   "deadline": "2026-11-20",
-   "stipend_or_prize": "₹500,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/ai-kaushal-hackathon-2026-indian-institute-of-information-technology-iiit-lucknow-1817798",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "3e4edf5abab5",
    "title": "CODEFESTTHON 2026",
    "organiser": "",
@@ -252,27 +231,6 @@
    "verified": false
   },
   {
-   "id": "7cf1dc295371",
-   "title": "INNOVATE X",
-   "organiser": "Poornima Institute of Engineering & Technology (PIET), Jaipur",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-11-20",
-   "deadline": "2026-11-20",
-   "stipend_or_prize": "",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/innovate-x-poornima-institute-of-engineering-technology-piet-jaipur-1818980",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "dc6965c8cb00",
    "title": "Introduction To Bioinformatics Using NGS Data",
    "organiser": "",
@@ -293,6 +251,27 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "6a498aad0483",
+   "title": "TrueFoundry Forge-a-thon | Techfest, IIT Bombay 2026-27",
+   "organiser": "Indian Institute of Technology (IIT), Bombay",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Mumbai, Maharashtra, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-18",
+   "deadline": "2026-11-20",
+   "stipend_or_prize": "₹245,000 in prizes",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/truefoundry-forge-a-thon-techfest-iit-bombay-2026-27-techfest-iit-bombay-1819296",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
   },
   {
    "id": "9f26cb8d99da",
@@ -680,6 +659,27 @@
    "verified": true
   },
   {
+   "id": "641d28edf035",
+   "title": "Rajasthan Police Hackathon 2026",
+   "organiser": "Rajasthan Police (राजस्थान पुलिस)",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Jaipur, Rajasthan, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-29",
+   "deadline": "2026-11-24",
+   "stipend_or_prize": "₹500,000 in prizes",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/rajasthan-police-hackathon-2026-rajasthan-police-rajasathana-palsa-1818639",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "9e183b9b8cea",
    "title": "Single cell RNA-seq analysis",
    "organiser": "VIB",
@@ -834,6 +834,27 @@
    "verified": true
   },
   {
+   "id": "910289cd1b40",
+   "title": "National Case Writing Competition",
+   "organiser": "ICFAI Business School (IBS), Hyderabad",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Hyderabad, Telangana, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-01-10",
+   "deadline": "2026-11-25",
+   "stipend_or_prize": "₹50,000 in prizes",
+   "eligibility": "Postgraduate, Management",
+   "url": "https://unstop.com/competitions/national-case-writing-competition-ibs-hyderabad-1797176",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "6686488b7e29",
    "title": "Rebuilding microbial genomes with MGnify: from reads to contigs annotation",
    "organiser": "European Bioinformatics Institute (EBI)",
@@ -957,7 +978,7 @@
    "end_date": "2026-11-28",
    "deadline": "2026-11-26",
    "stipend_or_prize": "₹300,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
+   "eligibility": "All",
    "url": "https://unstop.com/hackathons/myonne-national-bug-bounty-challenge-2026-myonne-amora-private-limited-1817686",
    "source": "unstop",
    "date_added": "2026-11-20",
@@ -1022,6 +1043,27 @@
    "stipend_or_prize": "₹100,000 in prizes",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, School Students, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/silicon-sprint-2026-nitk-surathkal-1814263",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "ab9d3437d19f",
+   "title": "AI Kaushal Hackathon 2026",
+   "organiser": "Indian Institute of Information Technology (IIIT), Lucknow",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Lucknow, Uttar Pradesh, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-09",
+   "deadline": "2026-11-27",
+   "stipend_or_prize": "₹500,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/ai-kaushal-hackathon-2026-indian-institute-of-information-technology-iiit-lucknow-1817798",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -2477,27 +2519,6 @@
    "verified": true
   },
   {
-   "id": "5dab5c79c59d",
-   "title": "IDEATHON- FutureX: Innovating for Global Challenges",
-   "organiser": "Skill2Career",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-12-19",
-   "deadline": "2026-12-16",
-   "stipend_or_prize": "Certificates",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/ideathon-futurex-innovating-for-global-challenges-skill2career-1803074",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "ead365219a29",
    "title": "Making sense of metagenomics data with MGnify",
    "organiser": "European Bioinformatics Institute (EBI)",
@@ -2962,6 +2983,27 @@
    "eligibility": "Students (check the event site for age and school rules)",
    "url": "https://hackcanada.org",
    "source": "mlh",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "139e2f8b76cf",
+   "title": "REFRACT 1.0 Hackathon",
+   "organiser": "University Of Engineering And Management, Kolkata",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Kolkata, West Bengal, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-01-31",
+   "deadline": "2027-01-09",
+   "stipend_or_prize": "₹45,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/refract-10-hackathon-university-of-engineering-and-management-kolkata-1817240",
+   "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -3773,27 +3815,6 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
-  },
-  {
-   "id": "b3436df47269",
-   "title": "CSS Battle",
-   "organiser": "Army Institute of Technology (AIT), Pune",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2027-03-01",
-   "deadline": "2027-03-01",
-   "stipend_or_prize": "₹15,000 in prizes",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/css-battle-solutions-2k27-army-institute-of-technology-ait-pune-1802090",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
   },
   {
    "id": "33c19a35cb3f",
