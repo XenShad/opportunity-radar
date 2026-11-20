@@ -34,6 +34,10 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v5
+        with:
+          # the branch's latest commit, not the one that triggered this run
+          # (a queued run would otherwise start from an outdated copy)
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v6
         with:
@@ -68,8 +72,10 @@ jobs:
             exit 0
           fi
           git commit -m "Update opportunities $(date -u +'%Y-%m-%d %H:%M UTC')"
-          # In case you pushed something while the scraper was running:
-          git pull --rebase origin "${GITHUB_REF_NAME}"
+          # In case something was pushed while the scraper was running.
+          # opportunities.json is generated, so if both sides changed it,
+          # keep the copy we just built ("theirs" = our commit during a rebase).
+          git pull --rebase -X theirs origin "${GITHUB_REF_NAME}"
           git push
 
   deploy:
