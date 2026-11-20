@@ -70,7 +70,7 @@ def fetch_items():
                 source=NAME,
                 title=title,
                 organiser="",                   # not structured in the feed
-                type=guess_type(title, default_type),
+                type=guess_type(title, default_type, online=mode == "online"),
                 mode=mode,
                 location=location,
                 deadline=find_deadline_in_text(text),

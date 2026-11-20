@@ -78,7 +78,7 @@ def _type(rec):
     if kind == "scholarships":
         return "fellowship"
     if kind == "workshops":
-        return guess_type(rec.get("title"), "workshop")
+        return guess_type(rec.get("title"), "workshop", online=_mode(rec) == "online")
     return "competition"
 
 

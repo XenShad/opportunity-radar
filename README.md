@@ -66,7 +66,8 @@ A personal dashboard of **hackathons, internships, fellowships, competitions, co
 - **Never crashes because of one site.** If a source fails or blocks us, it logs a warning and keeps that source's items from the last run.
 - **Expiry:** an item is dropped once its deadline has passed. With no deadline, it's dropped once its end date has passed. Scraped items with no dates at all are dropped 60 days after first being seen. The page also hides expired items itself, so nothing stale shows between runs.
 - **Duplicates:** the same URL, or the same title with the same start date, counts as one opportunity. Your `custom.json` copy wins, then verified sources, then the most complete copy.
-- **Deadlines for events:** TeSS/EMBL-EBI training events and MLH hackathons don't publish a registration deadline, so their **start date** is used (you must register by then at the latest). Ongoing courses show "Ongoing · until …" instead.
+- **Deadlines for events:** TeSS/EMBL-EBI, Galaxy and nf-core events and MLH hackathons don't publish a registration deadline, so their **start date** is used (you must register by then at the latest). Ongoing courses show "Ongoing · until …" instead.
+- **Spotting webinars:** titles with "webinar", "bytesize", "live session" and similar words count as webinars. So do online events called a talk, seminar or lecture (in person they don't), and online TeSS/EMBL-EBI sessions that start and end on the same day without being called a course or workshop. The rules live in `_TYPE_RULES` in `scraper/helpers.py`.
 
 ---
 
@@ -283,7 +284,10 @@ All were tested on 20 Nov 2026.
 | Kaggle | ✅ used, needs key | Official API; skipped with a warning until you add the secret. *Not yet tested with a real key* |
 | DREAM Challenges | ✅ used | WordPress RSS; only posts tagged "Open Challenge" or "Pre-Register" |
 | EMBL-EBI training | ✅ used | Via the TeSS API, filtered to EMBL-EBI (EBI Search returned empty titles) |
-| TeSS (ELIXIR) | ✅ used | Open JSON API, keyword searches; stands in for "related RSS feeds" |
+| TeSS (ELIXIR) | ✅ used | Open JSON API: keyword searches, plus its online events (the main webinar source; kept only if they match your fields); stands in for "related RSS feeds" |
+| Galaxy Project | ✅ used | Public events RSS (workshops, hackathons, conferences, occasional webinars); non-bio topics skipped via `GALAXY_SKIP_PATTERN` |
+| nf-core | ✅ used | Public events RSS: "bytesize" webinars, hackathons, training (only upcoming ones are kept) |
+| NCBI Insights | ✅ used | NCBI's blog RSS, filtered to webinar/codeathon/workshop posts that mention a future date. Often 0 items between announcements |
 | Biotecnika | ⚠️ often blocked | WordPress category RSS. The site sits behind a Cloudflare bot check that often answers HTTP 403. We respect that: on the first block it stops, warns, and keeps the last good data. No workarounds |
 | Devpost | ❌ skipped | Its Terms of Use forbid automated scraping and crawling (even though robots.txt allows it) |
 | Internshala | ❌ skipped | Its Terms forbid bots and scrapers; robots.txt blocks search pages |
@@ -291,6 +295,7 @@ All were tested on 20 Nov 2026.
 | Bioinformatics.org | ❌ skipped | No working RSS or API; the jobs board is mostly postdoc roles |
 | CAFA | ➖ covered | No feed of its own; recent rounds ran on Kaggle |
 | iGEM | ❌ skipped | One competition a year, no feed. Add it to `custom.json` |
+| IndiaBioscience | ❌ skipped | Answers automated requests with HTTP 403 (listed under "Check manually") |
 
 Skipped sites appear under **Check manually** in the sidebar. **Source status** in the sidebar shows how each source did in the last run.
 

@@ -11,8 +11,8 @@ To ADD a source:
 To REMOVE a source: set it to False in config.ENABLED_SOURCES (or delete it here).
 """
 
-from sources import (biotecnika, devfolio, dream, embl_ebi, hackerearth,
-                     kaggle, mlh, tess, unstop)
+from sources import (biotecnika, devfolio, dream, embl_ebi, galaxy, hackerearth,
+                     kaggle, mlh, ncbi, nfcore, tess, unstop)
 
 # name -> function that returns a list of items
 SOURCES = {
@@ -24,5 +24,8 @@ SOURCES = {
     "dream": dream.fetch_items,
     "embl_ebi": embl_ebi.fetch_items,
     "tess": tess.fetch_items,
+    "galaxy": galaxy.fetch_items,
+    "nfcore": nfcore.fetch_items,
+    "ncbi": ncbi.fetch_items,
     "biotecnika": biotecnika.fetch_items,
 }

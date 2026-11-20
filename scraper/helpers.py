@@ -338,22 +338,49 @@ def guess_region(location, mode):
 # Order matters: the first rule that matches wins.
 _TYPE_RULES = [
     ("summer-school", r"\b(summer|winter|spring|autumn) school\b"),
-    ("hackathon",     r"\bhackathon|\bhack\b|\bdatathon|\bbuildathon"),
-    ("webinar",       r"\bwebinar|\bweb seminar|\bonline talk|\bseminar series"),
+    ("hackathon",     r"\bhackathon|\bhack\b|\bdatathon|\bbuildathon|\bcodeathon|\bcode-a-thon|\bsprint\b"),
+    ("webinar",       r"\bwebinar|\bweb seminar|\bonline talk|\bseminar series|\bbytesize\b"
+                      r"|\blive session|\binfo(rmation)? session"),
     ("conference",    r"\bconference|\bsymposium|\bcongress\b|\bsummit\b|\bmeeting\b"),
     ("internship",    r"\bintern(ship)?s?\b|\bsummer (training|research|program)|\btrainee"),
     ("fellowship",    r"\bfellowship|\bscholarship|\bjrf\b|\bsrf\b"),
     ("competition",   r"\bcompetition|\bchallenge\b|\bcontest|\bquiz|\bolympiad"),
-    ("workshop",      r"\bworkshop|\btraining|\bcourse\b|\bbootcamp|\bhands-on"),
+    ("workshop",      r"\bworkshop|\btraining|\bcourse\b|\bbootcamp|\bhands-on|\btutorial"),
 ]
 
+# Words that mean "a talk" - a webinar only when it happens online
+# (an in-person "seminar" or "lecture" is not a webinar).
+_ONLINE_TALK_RX = re.compile(
+    r"\bseminar|\btalks?\b|\blecture|\bkeynote|\bmasterclass|\boffice hours|\bjournal club|\bq\s?&\s?a\b",
+    re.I,
+)
 
-def guess_type(text, default):
-    """Guess the opportunity type from a title. Falls back to `default`."""
+
+def guess_type(text, default, online=False):
+    """
+    Guess the opportunity type from a title. Falls back to `default`.
+    Pass online=True for online events, so talks/seminars count as webinars.
+    """
     for kind, pattern in _TYPE_RULES:
         if re.search(pattern, text or "", re.I):
             return kind
+    if online and _ONLINE_TALK_RX.search(text or ""):
+        return "webinar"
     return default
+
+
+def find_event_date_in_text(text):
+    """
+    First date in the text that is today or later, e.g. the date in
+    "Join our webinar on Wednesday, December 10, 2026 at 12 PM ET".
+    Returns "YYYY-MM-DD" or None.
+    """
+    lo, hi = today(), today() + timedelta(days=500)
+    for match in re.finditer(_DATE_IN_TEXT, text or ""):
+        found = to_date(match.group(1))
+        if found and lo <= date.fromisoformat(found) <= hi:
+            return found
+    return None
 
 
 # ---------------------------------------------------------------------------

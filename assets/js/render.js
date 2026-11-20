@@ -19,7 +19,8 @@ const ICONS = {
 const SOURCE_NAMES = {
   mlh: "MLH", unstop: "Unstop", hackerearth: "HackerEarth", devfolio: "Devfolio",
   kaggle: "Kaggle", dream: "DREAM", embl_ebi: "EMBL-EBI", tess: "TeSS",
-  biotecnika: "Biotecnika", custom: "your list", local: "this browser",
+  biotecnika: "Biotecnika", galaxy: "Galaxy", nfcore: "nf-core", ncbi: "NCBI",
+  custom: "your list", local: "this browser",
 };
 const MODE_NAMES = { online: "Online", offline: "In person", hybrid: "Hybrid" };
 const NEW_DAYS = 3;   // "New" badge for items first seen in the last 3 days
@@ -45,7 +46,7 @@ export function renderCard(item, ctx) {
 
   const where = item.mode === "online" && (!item.location || item.location === "Online")
     ? "Online"
-    : `${MODE_NAMES[item.mode] || ""} · ${item.location || "Location TBA"}`;
+    : `${MODE_NAMES[item.mode] || ""} · ${item.location || "location on event page"}`;
 
   let dates = "";
   if (item.start_date && item.end_date && item.start_date !== item.end_date) dates = `${shortDate(item.start_date)} – ${shortDate(item.end_date)}`;

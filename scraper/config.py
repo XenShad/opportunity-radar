@@ -19,6 +19,9 @@ ENABLED_SOURCES = {
     "dream": True,
     "embl_ebi": True,
     "tess": True,
+    "galaxy": True,
+    "nfcore": True,
+    "ncbi": True,
     "biotecnika": True,
 }
 
@@ -129,6 +132,13 @@ TESS_QUERIES = [
     "drug discovery", "machine learning", "protein structure",
 ]
 TESS_PER_QUERY = 25                 # results per query (TeSS max is 100)
+TESS_ONLINE_PAGES = 2               # pages of 100 online events (where webinars are)
+
+# Galaxy events about these (non-life-science) topics are skipped.
+GALAXY_SKIP_PATTERN = r"humanities|astronom|astrophysic|climate|earth system|material science"
+
+# NCBI Insights blog: only posts whose title matches this are kept.
+NCBI_TITLE_PATTERN = r"webinar|codeathon|workshop|training|virtual|office hours|tutorial"
 
 # Biotecnika WordPress category feeds (slug -> default opportunity type).
 # Find more slugs at https://www.biotecnika.org/wp-json/wp/v2/categories?search=WORD
@@ -170,7 +180,8 @@ INDIA_PLACES = [
 # Sources whose listings come straight from the organiser or the platform you
 # apply on, so items from them are marked verified=true. Aggregators and news
 # sites (TeSS, Biotecnika) are not. Items in custom.json are always verified.
-VERIFIED_SOURCES = {"mlh", "unstop", "hackerearth", "devfolio", "kaggle", "dream", "embl_ebi"}
+VERIFIED_SOURCES = {"mlh", "unstop", "hackerearth", "devfolio", "kaggle", "dream", "embl_ebi",
+                    "galaxy", "nfcore", "ncbi"}
 
 # All dates are interpreted in India time (UTC+5:30), see helpers.IST.
 
@@ -192,6 +203,8 @@ MANUAL_SOURCES = [
      "why": "No feed or API"},
     {"name": "CAFA (protein function)", "url": "https://biofunctionprediction.org/cafa/",
      "why": "Rounds run on Kaggle"},
+    {"name": "IndiaBioscience events & webinars", "url": "https://indiabioscience.org/events",
+     "why": "Blocks automated access"},
 ]
 
 # ---------------------------------------------------------------------------
