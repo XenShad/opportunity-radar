@@ -193,6 +193,10 @@ def fetch(url, params=None, headers=None, auth=None, kind="json", retries=2):
             return r.json()
         if kind == "bytes":
             return r.content
+        # No charset in the header? requests then assumes Latin-1, which turns
+        # "Who’s" into "Whoâs". Modern pages are almost always UTF-8.
+        if "charset" not in r.headers.get("content-type", "").lower():
+            r.encoding = "utf-8"
         return r.text
 
 
@@ -295,11 +299,15 @@ def shorten(text, limit=160):
 
 
 def _keyword_regex(keyword):
-    r"""'genom*' -> \bgenom\w*   'ml' -> \bml\b   (\b = word boundary)"""
+    r"""
+    'genom*' -> \bgenom\w*   'ml' -> \bml\b   (\b = word boundary)
+    A space in a keyword also matches a hyphen, so "life science*" finds
+    "life sciences" and "life-sciences".
+    """
     keyword = keyword.lower().strip()
-    if keyword.endswith("*"):
-        return r"\b" + re.escape(keyword[:-1]) + r"\w*"
-    return r"\b" + re.escape(keyword) + r"\b"
+    prefix = keyword.endswith("*")
+    body = re.escape(keyword.rstrip("*")).replace(r"\ ", " ").replace(" ", r"[\s-]+")
+    return r"\b" + body + (r"\w*" if prefix else r"\b")
 
 
 # Compile one regex per field once, at import time (fast to reuse).
@@ -405,7 +413,7 @@ def make_id(*parts):
 def make_item(*, source, title, url, type, organiser="", mode="online",
               location="", start_date=None, end_date=None, deadline=None,
               stipend_or_prize="", eligibility="", notes="", tag_text="",
-              bio_source=False, require_match=False):
+              bio_source=False, require_match=False, fields=None):
     """
     Build one opportunity dict in the shared schema.
 
@@ -414,6 +422,8 @@ def make_item(*, source, title, url, type, organiser="", mode="online",
                     BIO_FALLBACK_FIELD tag instead of being treated as general.
     require_match : True to drop the item if no field keyword matches
                     (used for fuzzy searches that return off-topic results).
+
+    fields        : tags the source already worked out; skips keyword matching.
 
     Returns None when the item should be skipped.
     """
@@ -425,7 +435,7 @@ def make_item(*, source, title, url, type, organiser="", mode="online",
     if mode not in MODES:
         raise ValueError(f"unknown mode {mode!r} for {title!r}; must be one of {MODES}")
 
-    fields = match_fields(f"{title} {clean(tag_text)[:config.TAG_TEXT_MAX_CHARS]}")
+    fields = fields or match_fields(f"{title} {clean(tag_text)[:config.TAG_TEXT_MAX_CHARS]}")
     if not fields:
         if bio_source:
             fields = [config.BIO_FALLBACK_FIELD]

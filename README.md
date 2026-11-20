@@ -278,7 +278,7 @@ All were tested on 20 Nov 2026.
 | Source | Status | How |
 |---|---|---|
 | MLH | ✅ used | Season events page. The event list is embedded as JSON in the page; the official API needs a login |
-| Unstop | ✅ used | Public JSON API (robots.txt explicitly allows `/api/public/*`). Hackathons + keyword searches for internships, competitions and workshops |
+| Unstop | ✅ used | Public JSON API (robots.txt explicitly allows `/api/public/*`). Hackathons + keyword searches for internships, competitions and workshops. Search results are judged on the role itself (title, skills), and sales/HR/marketing roles are dropped. Unstop has very few biology internships, so most of its internships are data science / ML |
 | HackerEarth | ✅ used | Public JSON endpoint (usually only a few items) |
 | Devfolio | ✅ used | Public JSON API (participant data is never stored) |
 | Kaggle | ✅ used, needs key | Official API; skipped with a warning until you add the secret. *Not yet tested with a real key* |
@@ -288,6 +288,10 @@ All were tested on 20 Nov 2026.
 | Galaxy Project | ✅ used | Public events RSS (workshops, hackathons, conferences, occasional webinars); non-bio topics skipped via `GALAXY_SKIP_PATTERN` |
 | nf-core | ✅ used | Public events RSS: "bytesize" webinars, hackathons, training (only upcoming ones are kept) |
 | NCBI Insights | ✅ used | NCBI's blog RSS, filtered to webinar/codeathon/workshop posts that mention a future date. Often 0 items between announcements |
+| EMBL events | ✅ used | Public events page with machine-readable attributes: EMBL courses, EMBO Workshops/conferences and webinars (Heidelberg, EMBL-EBI, Barcelona, Rome, virtual). Events with closed registration are skipped |
+| Opportunities For Youth | ✅ used | WordPress RSS (several pages). All fields, so only science-matched posts that are clearly an internship/fellowship/summer school/conference/competition are kept |
+| Opportunity Desk | ✅ used | WordPress category RSS (internships, fellowships, training), same filtering. Its terms have no rule against reading feeds |
+| Zindi | ✅ used | Public JSON API of open ML/data-science competitions |
 | Biotecnika | ⚠️ often blocked | WordPress category RSS. The site sits behind a Cloudflare bot check that often answers HTTP 403. We respect that: on the first block it stops, warns, and keeps the last good data. No workarounds |
 | Devpost | ❌ skipped | Its Terms of Use forbid automated scraping and crawling (even though robots.txt allows it) |
 | Internshala | ❌ skipped | Its Terms forbid bots and scrapers; robots.txt blocks search pages |
@@ -296,6 +300,14 @@ All were tested on 20 Nov 2026.
 | CAFA | ➖ covered | No feed of its own; recent rounds ran on Kaggle |
 | iGEM | ❌ skipped | One competition a year, no feed. Add it to `custom.json` |
 | IndiaBioscience | ❌ skipped | Answers automated requests with HTTP 403 (listed under "Check manually") |
+| AICTE Internship Portal | ❌ skipped | Its terms forbid collecting data by automated means |
+| IASc Lecture Workshops | ❌ skipped | The server cuts the page off before the list arrives |
+| NCBS, Codabench | ❌ skipped | Anti-bot challenge pages |
+| Wellcome Connecting Science, ICGEB | ❌ skipped | Refuse automated connections |
+| Grand Challenge | ❌ skipped | robots.txt disallows its API |
+| LinkedIn, Naukri, Indeed, Glassdoor | ❌ not attempted | Their terms forbid scraping |
+
+**Annual programmes in `custom.json`.** Big internship programmes (IIT summer programmes, JNCASR, TIFR, RIKEN, Weizmann, NUS Amgen, OIST, KAUST, Vienna BioCenter…) don't have feeds, so they live in `data/custom.json` with their official links. Where the 2027 call isn't out yet they're marked `"expected": true` and the note says what last year's deadline was. When a call opens, edit the entry: set the `deadline` and remove `expected`.
 
 Skipped sites appear under **Check manually** in the sidebar. **Source status** in the sidebar shows how each source did in the last run.
 

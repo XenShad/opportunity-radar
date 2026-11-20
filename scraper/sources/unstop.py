@@ -8,14 +8,25 @@ We fetch:
   - the first few pages of open hackathons (general list), and
   - a keyword search for each type in config.UNSTOP_SEARCH_TYPES.
 Unstop's search is fuzzy (a "biotech" search can return a design internship),
-so search results are only kept if they match one of our field keywords.
+so search results are only kept if the ROLE itself (title, skills, work
+area) matches one of our field keywords, and isn't a sales/HR/marketing role.
 """
 
+import re
+
 import config
-from helpers import fetch, html_to_text, make_item, guess_type
+from helpers import fetch, guess_type, html_to_text, make_item, match_fields
 
 NAME = "unstop"
 API = "https://unstop.com/api/public/opportunity/search-result"
+
+# Roles that are never science/tech, whatever the company does.
+NON_TECHNICAL_RX = re.compile(
+    r"\bsales\b|marketing|\bhr\b|human resource|business development|customer (support|service|success)"
+    r"|social media|content writ|copywrit|graphic|video edit|branding|recruit|telecall|\boperations?\b"
+    r"|finance|accounting|fundrais|campus ambassador|event management|public relations|\bpr\b|outreach",
+    re.I,
+)
 
 
 def _search(opportunity, page=1, per_page=30, term=None):
@@ -90,6 +101,17 @@ def _to_item(rec, require_match):
     functions = [w.get("name") or "" for w in rec.get("workfunction") or []]
     details = html_to_text(rec.get("details") or "")[:1500]
 
+    fields = None
+    if require_match:
+        # Search results: judge relevance by the role itself (title, skills,
+        # work area), NOT the company blurb. Otherwise a sales internship at a
+        # pharma or "AI-powered" company gets tagged as drug discovery / ML.
+        if NON_TECHNICAL_RX.search(rec.get("title") or ""):
+            return None
+        fields = match_fields(" ".join([rec.get("title") or ""] + functions + skills))
+        if not fields:
+            return None
+
     mode = _mode(rec)
     return make_item(
         source=NAME,
@@ -104,7 +126,7 @@ def _to_item(rec, require_match):
         eligibility=", ".join(eligible),
         url=rec.get("seo_url") or f"https://unstop.com/{rec.get('public_url', '')}",
         tag_text=" ".join(functions + skills) + " " + details,
-        require_match=require_match,
+        fields=fields,
     )
 
 

@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-20T15:29:51+00:00",
-  "total": 234,
+  "last_updated": "2026-11-20T15:09:14+00:00",
+  "total": 371,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -9,11 +9,11 @@
    },
    "unstop": {
     "status": "ok",
-    "count": 68
+    "count": 101
    },
    "hackerearth": {
     "status": "ok",
-    "count": 2
+    "count": 3
    },
    "devfolio": {
     "status": "ok",
@@ -35,7 +35,7 @@
    },
    "tess": {
     "status": "ok",
-    "count": 101
+    "count": 146
    },
    "galaxy": {
     "status": "ok",
@@ -48,6 +48,22 @@
    "ncbi": {
     "status": "ok",
     "count": 0
+   },
+   "embl": {
+    "status": "ok",
+    "count": 67
+   },
+   "ofy": {
+    "status": "ok",
+    "count": 3
+   },
+   "opportunitydesk": {
+    "status": "ok",
+    "count": 2
+   },
+   "zindi": {
+    "status": "ok",
+    "count": 9
    },
    "biotecnika": {
     "status": "blocked",
@@ -117,6 +133,36 @@
     "name": "IndiaBioscience events & webinars",
     "url": "https://indiabioscience.org/events",
     "why": "Blocks automated access"
+   },
+   {
+    "name": "AICTE Internship Portal",
+    "url": "https://internship.aicte-india.org/",
+    "why": "Terms forbid automated collection"
+   },
+   {
+    "name": "IASc Lecture Workshops (India)",
+    "url": "https://webjapps.ias.ac.in/SEP/lecture_workshop_futhcoming.jsp",
+    "why": "Page can't be read automatically"
+   },
+   {
+    "name": "NCBS events",
+    "url": "https://www.ncbs.res.in/events",
+    "why": "Anti-bot check"
+   },
+   {
+    "name": "Wellcome Connecting Science courses",
+    "url": "https://coursesandconferences.wellcomeconnectingscience.org/",
+    "why": "Refuses automated connections"
+   },
+   {
+    "name": "ICGEB courses & fellowships",
+    "url": "https://www.icgeb.org/",
+    "why": "Refuses automated connections"
+   },
+   {
+    "name": "Grand Challenge (medical imaging)",
+    "url": "https://grand-challenge.org/challenges/",
+    "why": "robots.txt blocks its API"
    }
   ]
  },
@@ -186,6 +232,29 @@
    "source": "embl_ebi",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "a8130f1daf93",
+   "title": "Global Youth Forum 2027 in Italy: €600 Scholarships Available for Eligible Applicants",
+   "organiser": "",
+   "type": "fellowship",
+   "fields": [
+    "biotech",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "",
+   "region": "International",
+   "start_date": null,
+   "end_date": null,
+   "deadline": "2026-11-20",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://opportunitiesforyouth.org/2026/11/13/global-youth-forum-2027-in-italy-e600-scholarships-available-for-eligible-applicants/",
+   "source": "ofy",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Posted 2026-11-13 on Opportunities For Youth"
   },
   {
    "id": "9b4e4136baa5",
@@ -295,6 +364,27 @@
    "verified": true
   },
   {
+   "id": "f9dc602a498b",
+   "title": "Data Science with AIML Workshop, Ameerpet Hyderabad",
+   "organiser": "RaiseTech",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Hyderabad, Telangana, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-21",
+   "deadline": "2026-11-21",
+   "stipend_or_prize": "",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/workshops-webinars/data-science-with-aiml-workshop-ameerpet-hyderabad-raisetech-1817766",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "6b8fcccfdb70",
    "title": "DevNexus 2.0",
    "organiser": "",
@@ -360,6 +450,48 @@
    "verified": true
   },
   {
+   "id": "0df8ad85fdd9",
+   "title": "Master Data Analytics with AI – Free Workshop & Career-Oriented Training by Quality Thought in Hyderabad",
+   "organiser": "Quality Thought",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Hyderabad, Telangana, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-21",
+   "deadline": "2026-11-21",
+   "stipend_or_prize": "",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/workshops-webinars/master-data-analytics-with-ai-free-workshop-career-oriented-training-by-quality-thought-in-hyderabad--1817489",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "09217640441a",
+   "title": "Quality Thought Data Science Workshop 2026 – Python, AI, Machine Learning & Generative AI Training in Hyderabad",
+   "organiser": "Quality Thought",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Hyderabad, Telangana, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-21",
+   "deadline": "2026-11-21",
+   "stipend_or_prize": "",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/workshops-webinars/quality-thought-data-science-workshop-2026-python-ai-machine-learning-generative-ai-training-in-hyder-1817507",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "62dc7728e2cd",
    "title": "Tech For Community 2026",
    "organiser": "MLH member event",
@@ -402,6 +534,48 @@
    "verified": true
   },
   {
+   "id": "e0fb4f6a7d8e",
+   "title": "Artificial Intelligence (AI) & Machine Learning Internship",
+   "organiser": "Cognirex Solutions",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Kolhapur, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-27",
+   "deadline": "2026-11-22",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/internships/artificial-intelligence-ai-machine-learning-internship-cognirex-solutions-1808045",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "799eac6d8b0b",
+   "title": "Data Science Internship",
+   "organiser": "Opal Code",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-22",
+   "deadline": "2026-11-22",
+   "stipend_or_prize": "₹1,000–₹15,000/month stipend",
+   "eligibility": "All",
+   "url": "https://unstop.com/internships/data-science-internship-opal-code-1801847",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "3ac19dad6e6b",
    "title": "Data Sprint Challenge 2.0",
    "organiser": "The National Institute of Engineering, Karnataka",
@@ -418,6 +592,69 @@
    "stipend_or_prize": "Certificates",
    "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/data-sprint-20-anveshan-nie-1807080",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "c4c0a3210359",
+   "title": "Game On Night: Imagine the Impossible",
+   "organiser": "School of Management Sciences (SMS), Lucknow",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-22",
+   "deadline": "2026-11-22",
+   "stipend_or_prize": "Certificates",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/competitions/game-on-night-imagine-the-impossible-school-of-management-sciences-sms-lucknow-1806401",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "e479bc586395",
+   "title": "MED Detective - National Medical Case Study Competition",
+   "organiser": "Nims University (NU), Jaipur",
+   "type": "competition",
+   "fields": [
+    "healthcare-ai"
+   ],
+   "mode": "offline",
+   "location": "Jaipur, Rajasthan, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-27",
+   "deadline": "2026-11-22",
+   "stipend_or_prize": "₹10,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/competitions/med-detective-national-medical-case-study-competition-nims-university-nu-jaipur-1774032",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "137099d1c9cf",
+   "title": "Med IQ - Medical Quiz Competition",
+   "organiser": "Nims University (NU), Jaipur",
+   "type": "competition",
+   "fields": [
+    "healthcare-ai"
+   ],
+   "mode": "offline",
+   "location": "Jaipur, Rajasthan, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-26",
+   "deadline": "2026-11-22",
+   "stipend_or_prize": "₹10,000 in prizes",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/quiz/med-iq-medical-quiz-competition-nims-university-nu-jaipur-1774038",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -575,6 +812,27 @@
    "verified": false
   },
   {
+   "id": "bcb795fbae1c",
+   "title": "Data Science and ML Internship",
+   "organiser": "IntelleQAcademy",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-23",
+   "deadline": "2026-11-23",
+   "stipend_or_prize": "₹10,000–₹15,000/month stipend",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/internships/data-science-and-ml-internship-intelleqacademy-1775187",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "00d1b6b3ceba",
    "title": "ELIXIR-GOBLET Train-the-Trainer",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -594,6 +852,50 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "9faf299c47c4",
+   "title": "How To Crack Live Interviews at Product Based Companies",
+   "organiser": "RaiseTech",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-23",
+   "deadline": "2026-11-23",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Undergraduate, Fresher",
+   "url": "https://unstop.com/workshops-webinars/how-to-crack-live-interviews-at-product-based-companies-raisetech-1819651",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "5f8480aed464",
+   "title": "M4i Mass Spectrometry Imaging Workshop",
+   "organiser": "Maastricht MultiModal Molecular Imaging Institute",
+   "type": "workshop",
+   "fields": [
+    "multi-omics",
+    "drug-discovery"
+   ],
+   "mode": "offline",
+   "location": "Maastricht, Netherlands",
+   "region": "International",
+   "start_date": "2026-11-23",
+   "end_date": "2026-11-27",
+   "deadline": "2026-11-23",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.maastrichtuniversity.nl/events/m4i-mass-spectrometry-imaging-workshop",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
   },
   {
    "id": "86be986b3230",
@@ -638,6 +940,27 @@
    "verified": true
   },
   {
+   "id": "6e75be2f706f",
+   "title": "AI Learning Support Internship",
+   "organiser": "Clapingo",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-24",
+   "deadline": "2026-11-24",
+   "stipend_or_prize": "₹6,000–₹8,000/month stipend",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/internships/ai-learning-support-internship-clapingo-1804607",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "20dfab02d156",
    "title": "Code Fort 2027",
    "organiser": "Chandigarh University (CU), Ajitgarh, Punjab",
@@ -654,6 +977,27 @@
    "stipend_or_prize": "₹175,000 in prizes",
    "eligibility": "All",
    "url": "https://unstop.com/hackathons/code-fort-2027-chandigarh-university-cu-ajitgarh-punjab-1817736",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "8c2d1c19f972",
+   "title": "Data Science Intern",
+   "organiser": "BNP Paribas",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Bangalore, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-24",
+   "deadline": "2026-11-24",
+   "stipend_or_prize": "",
+   "eligibility": "Fresher",
+   "url": "https://unstop.com/internships/data-science-intern-bnp-paribas-1804682",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -877,6 +1221,27 @@
    "verified": true
   },
   {
+   "id": "964cea603f29",
+   "title": "Student Researcher 2027",
+   "organiser": "Google Nest",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-25",
+   "deadline": "2026-11-25",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/internships/student-researcher-2027-google-nest-1805078",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "a71dd67225f3",
    "title": "Using AI in life science - A primer",
    "organiser": "",
@@ -1006,27 +1371,6 @@
    "verified": true
   },
   {
-   "id": "e9b675ab1c55",
-   "title": "Sales and Support Internship",
-   "organiser": "Labsmart Healthcare Technologies",
-   "type": "internship",
-   "fields": [
-    "healthcare-ai"
-   ],
-   "mode": "offline",
-   "location": "Bangalore, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-26",
-   "deadline": "2026-11-26",
-   "stipend_or_prize": "₹20,000/month stipend",
-   "eligibility": "Fresher",
-   "url": "https://unstop.com/internships/sales-and-support-internship-labsmart-healthcare-technologies-1807144",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "9d8e873a0923",
    "title": "Silicon Sprint 2026",
    "organiser": "National Institute of Technology Karnataka (NITK), Surathkal",
@@ -1064,6 +1408,27 @@
    "stipend_or_prize": "₹500,000 in prizes",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/ai-kaushal-hackathon-2026-indian-institute-of-information-technology-iiit-lucknow-1817798",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "f80919b515be",
+   "title": "Beyond Software Development: Exploring Higher Studies and Research in AI/ML",
+   "organiser": "TechBairn Research",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-27",
+   "deadline": "2026-11-27",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/beyond-software-development-exploring-higher-studies-and-research-in-aiml-techbairn-research-1808042",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -1135,22 +1500,22 @@
    "verified": true
   },
   {
-   "id": "b52f74b9b381",
-   "title": "Healthcare Outreach & Marketing Internship",
-   "organiser": "Trata Health",
-   "type": "internship",
+   "id": "024f5c9a7a90",
+   "title": "Learn, Think, Leverage: Building Your Career in the AI Era",
+   "organiser": "TechBairn Research",
+   "type": "workshop",
    "fields": [
-    "healthcare-ai"
+    "ml-ai"
    ],
-   "mode": "offline",
-   "location": "Lucknow, India",
-   "region": "India",
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
    "start_date": null,
    "end_date": "2026-11-27",
    "deadline": "2026-11-27",
    "stipend_or_prize": "",
-   "eligibility": "Postgraduate, Fresher, Management",
-   "url": "https://unstop.com/internships/healthcare-outreach-marketing-internship-trata-health-1807747",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/learn-think-leverage-building-your-career-in-the-ai-era-techbairn-research-1808022",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -1198,28 +1563,6 @@
    "verified": true
   },
   {
-   "id": "01a2f8d09ac4",
-   "title": "Sales Internship",
-   "organiser": "Artigence Healthcare",
-   "type": "internship",
-   "fields": [
-    "healthcare-ai",
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-11-28",
-   "deadline": "2026-11-28",
-   "stipend_or_prize": "",
-   "eligibility": "Postgraduate, Undergraduate, Fresher, Management, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/internships/sales-internship-artigence-healthcare-1810011",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "67afe63c91a2",
    "title": "Bioinformatics Internship",
    "organiser": "Xenoibiotech Pvt. Ltd.",
@@ -1227,8 +1570,6 @@
    "fields": [
     "bioinformatics",
     "genomics",
-    "single-cell",
-    "transcriptomics",
     "biotech"
    ],
    "mode": "online",
@@ -1282,6 +1623,48 @@
    "stipend_or_prize": "₹150,000 in prizes",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/anveshak-open-world-object-detection-for-remote-sensing-iit-bombay-1818894",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "aaf65aefec4d",
+   "title": "APJ Research Quest 1: Scientific Thinking & Research Basics",
+   "organiser": "APJ Raise",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "Certificates",
+   "eligibility": "All",
+   "url": "https://unstop.com/quiz/apj-research-quest-1-scientific-thinking-research-basics-apj-raise-1803518",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "aece720e9fa6",
+   "title": "Beyond the AI Hype: The Changing Landscape of Full Stack Development",
+   "organiser": "TechBairn Research",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/beyond-the-ai-hype-the-changing-landscape-of-full-stack-development-techbairn-research-1808038",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -1345,6 +1728,27 @@
    "stipend_or_prize": "₹9,000 in prizes",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/capture-the-flag-ctf-ignitron-2k26-gm-university-davanagere-1791574",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "41db0cead809",
+   "title": "Career Guidance for Aspiring Developers: Exploring AI/ML Research & Higher Studies",
+   "organiser": "TechBairn Research",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/career-guidance-for-aspiring-developers-exploring-aiml-research-higher-studies-techbairn-research-1808023",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -1518,6 +1922,27 @@
    "verified": true
   },
   {
+   "id": "308898102ac0",
+   "title": "From Web Applications to Intelligent Products: Building Skills for Tomorrow",
+   "organiser": "TechBairn Research",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/from-web-applications-to-intelligent-products-building-skills-for-tomorrow-techbairn-research-1808039",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "085275a34f07",
    "title": "Hackignite 1.0 – 24 Hours National Level Hackathon",
    "organiser": "Jain College of Engineering & Technology, Hubballi",
@@ -1581,6 +2006,71 @@
    "verified": true
   },
   {
+   "id": "1cef67ea2773",
+   "title": "Is Full Stack Development Still in Demand? Exploring the Future of Software Careers",
+   "organiser": "TechBairn Research",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/is-full-stack-development-still-in-demand-exploring-the-future-of-software-careers-techbairn-research-1808027",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "3b95803f3ee9",
+   "title": "Machine Learning Engineer Internship",
+   "organiser": "Vortizo AI",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "₹30,000–₹40,000/month stipend",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate",
+   "url": "https://unstop.com/internships/machine-learning-engineer-vortizo-ai-1791403",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "c8bd40060e1a",
+   "title": "PharmaNova",
+   "organiser": "GM University Davanagere",
+   "type": "competition",
+   "fields": [
+    "drug-discovery",
+    "healthcare-ai",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Davanagere, Karnataka, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "₹9,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/competitions/pharmanova-ignitron-2k26-gm-university-davanagere-1795520",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "custom-iasc-srf-2027",
    "title": "Science Academies Summer Research Fellowship 2027 (IASc-INSA-NASI)",
    "organiser": "Indian Academy of Sciences, INSA & NASI",
@@ -1627,22 +2117,43 @@
    "verified": true
   },
   {
-   "id": "9623f0ef6596",
-   "title": "Design, Branding, Social Media & GTM Internship",
-   "organiser": "Frugality Fintech",
+   "id": "fb9d28b24186",
+   "title": "Your Future in Tech: Exploring Careers in Data & AI",
+   "organiser": "TechBairn",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/your-future-in-tech-exploring-careers-in-data-ai-techbairn-1808006",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "91c97ebe8c6b",
+   "title": "Machine Learning Internship",
+   "organiser": "Codemonk",
    "type": "internship",
    "fields": [
     "ml-ai"
    ],
    "mode": "offline",
-   "location": "Baner, Pune, India",
+   "location": "Bangalore, India",
    "region": "India",
    "start_date": null,
    "end_date": "2026-12-01",
    "deadline": "2026-12-01",
-   "stipend_or_prize": "₹8,000–₹12,000/month stipend",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/internships/design-branding-social-media-gtm-internship-frugality-fintech-1787297",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate",
+   "url": "https://unstop.com/internships/machine-learning-internship-codemonk-1816258",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -1675,6 +2186,28 @@
    "notes": "Cost: Charge"
   },
   {
+   "id": "0abc825a11e6",
+   "title": "28th EMBL PhD Symposium",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2026-12-02",
+   "end_date": "2026-12-04",
+   "deadline": "2026-12-02",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://phdsymposium.embl-community.io/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: 2026 EMBL PhD Symposium Organising Committee"
+  },
+  {
    "id": "5455fc6c412a",
    "title": "CodeUnited India - National Hackathon",
    "organiser": "HackWithPune",
@@ -1691,6 +2224,27 @@
    "stipend_or_prize": "",
    "eligibility": "All",
    "url": "https://unstop.com/hackathons/codeunited-india-national-hackathon-hackwithpune-1817749",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "d7c47fb24ae8",
+   "title": "Computer Science Challenge 2026",
+   "organiser": "Zeitgeist Retail Private Limited",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-03",
+   "deadline": "2026-12-02",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Undergraduate",
+   "url": "https://unstop.com/quiz/computer-science-challenge-2026-zeitgeist-retail-private-limited-1817385",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -1739,27 +2293,6 @@
    "verified": true
   },
   {
-   "id": "58afaab166ea",
-   "title": "Operational Management Leadership Program Internship",
-   "organiser": "GE Healthcare",
-   "type": "internship",
-   "fields": [
-    "healthcare-ai"
-   ],
-   "mode": "offline",
-   "location": "Bangalore, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-02",
-   "deadline": "2026-12-02",
-   "stipend_or_prize": "",
-   "eligibility": "Fresher",
-   "url": "https://unstop.com/internships/operational-management-leadership-program-internship-ge-healthcare-1818210",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "8ae5ac9ae5d2",
    "title": "Shifting Gears: Automation, AI, and High-Throughput Methodologies",
    "organiser": "Galaxy Project community",
@@ -1780,6 +2313,28 @@
    "source": "galaxy",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "86a1c7232972",
+   "title": "Smart experimental design",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2026-12-02",
+   "end_date": "2026-12-09",
+   "deadline": "2026-12-02",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/smart-experimental-design",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
   },
   {
    "id": "28bb0a067476",
@@ -1851,6 +2406,69 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "c3a0c2751650",
+   "title": "Linux débutant",
+   "organiser": "GenOuest, IRISA",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "RENNES, France",
+   "region": "International",
+   "start_date": "2026-12-03",
+   "end_date": "2026-12-03",
+   "deadline": "2026-12-03",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://framaforms.org/inscription-a-la-formation-genouest-initiation-a-linux-03122026-1788361424",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "a9829ae4871f",
+   "title": "AI-Assisted Multilingual Cultural Research & Content Internship",
+   "organiser": "aanvay",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-04",
+   "deadline": "2026-12-04",
+   "stipend_or_prize": "",
+   "eligibility": "Postgraduate, Undergraduate, Fresher, Management, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/internships/ai-assisted-multilingual-cultural-research-content-internship-aanvay-1820269",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "65f7561c20ed",
+   "title": "Artificial Intelligence and Machine Learning Internship",
+   "organiser": "Webmobril Technologies",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Noida, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-04",
+   "deadline": "2026-12-04",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher",
+   "url": "https://unstop.com/internships/artificial-intelligence-and-machine-learning-internship-webmobril-technologies-1820711",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
   },
   {
    "id": "7ae07f780da1",
@@ -1958,6 +2576,48 @@
    "verified": true
   },
   {
+   "id": "564ad779a05b",
+   "title": "Cepheid Intern Hiring Challenge 2026",
+   "organiser": "HackerEarth",
+   "type": "competition",
+   "fields": [
+    "healthcare-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-27",
+   "end_date": "2026-12-06",
+   "deadline": "2026-12-06",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.hackerearth.com/challenges/competitive/cepheid-hiring-challenge-2026-4/",
+   "source": "hackerearth",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "313d49b556d6",
+   "title": "Deep Learning Workshop",
+   "organiser": "Indian Institute of Technology (IIT), Bombay",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Mumbai, Maharashtra, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-06",
+   "deadline": "2026-12-06",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/deep-learning-workshop-iit-bombay-1749108",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "b6dccc9108c9",
    "title": "Spectrum 1.0 – 24 Hour National Level Hackathon",
    "organiser": "Guru Nanak Dev Engineering College Bidar",
@@ -2023,6 +2683,27 @@
    "verified": false
   },
   {
+   "id": "e5a3df166fbe",
+   "title": "Nextflow for reproducible and automated data analysis",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2026-12-07",
+   "end_date": "2026-12-08",
+   "deadline": "2026-12-07",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/nextflow-reproducible-and-automated-data-analysis-7",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "82a0331a0688",
    "title": "Introduction to Spatial Transcriptomics Data Analysis",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -2067,6 +2748,71 @@
    "verified": true
   },
   {
+   "id": "2a92c6152153",
+   "title": "Rack It Up 2026: 48-Hour Online Hackathon by Rack'Em",
+   "organiser": "Karma Enterprises",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-20",
+   "deadline": "2026-12-08",
+   "stipend_or_prize": "Certificates",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/rack-it-up-2026-48-hour-online-hackathon-by-rackem-karma-enterprises-1777639",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "d947fba4c93c",
+   "title": "Statistics with R",
+   "organiser": "Hub for Applied Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "London",
+   "region": "International",
+   "start_date": "2026-12-08",
+   "end_date": "2026-12-08",
+   "deadline": "2026-12-08",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/part-2-statistics-with-r-december-2026",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
+  },
+  {
+   "id": "cb0addd301ca",
+   "title": "Unlocking the functional diversity of gut microbiomes",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2026-12-08",
+   "end_date": "2026-12-10",
+   "deadline": "2026-12-08",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/gmd26-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Robert Finn, Lisa Maier, Kiran Patil, Nassos Typas,"
+  },
+  {
    "id": "5008ab0b91c0",
    "title": "ETHChiangmai & Longevity Hackathon 2026",
    "organiser": "",
@@ -2108,6 +2854,27 @@
    "eligibility": "",
    "url": "https://www.ebi.ac.uk/training/events/mgnify-proteins-accessing-billions-metagenomic-protein-sequences-and-their-metadata",
    "source": "embl_ebi",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "d54755df585f",
+   "title": "Webinar : Agentic Solutions POC to Production: Why Salesforce Org Health Decides Which Agents Go Live",
+   "organiser": "ACL Digital",
+   "type": "webinar",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-09",
+   "deadline": "2026-12-09",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/webinar-agentic-solutions-poc-to-production-why-salesforce-org-health-decides-which-agents-go-live-ac-1817687",
+   "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -2329,6 +3096,48 @@
    "verified": true
   },
   {
+   "id": "730078146559",
+   "title": "GenAI for Good Challenge: Cities Edition (Phase 1 Technical Assessment)",
+   "organiser": "IEEE Humanitarian Technologies x UNDP",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-05",
+   "end_date": "2026-12-13",
+   "deadline": "2026-12-13",
+   "stipend_or_prize": "$40 000 USD",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/GenAI-for-Good-Challenge",
+   "source": "zindi",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "d67e5872fbae",
+   "title": "HOTOSM African Highway Segmentation Challenge",
+   "organiser": "Zindi",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-17",
+   "end_date": "2026-12-13",
+   "deadline": "2026-12-13",
+   "stipend_or_prize": "$2 500 USD",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/hotosm-african-highway-segmentation",
+   "source": "zindi",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "f47a97399097",
    "title": "OpenCode 2026",
    "organiser": "Indian Institute of Information Technology (IIIT), Allahabad",
@@ -2350,6 +3159,48 @@
    "verified": true
   },
   {
+   "id": "185d99e73212",
+   "title": "Underwater Vessel Noise Challenge by the French Embassy in South Africa",
+   "organiser": "Zindi",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-10-16",
+   "end_date": "2026-12-13",
+   "deadline": "2026-12-13",
+   "stipend_or_prize": "$5 000 USD",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/french-embassy-underwater-vessel-noise-challenge",
+   "source": "zindi",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "bbba9d624a48",
+   "title": "BENIN Fongbe Tonal ASR Challenge",
+   "organiser": "Zindi",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-21",
+   "end_date": "2026-12-14",
+   "deadline": "2026-12-14",
+   "stipend_or_prize": "$5 000 USD",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/frugal-tonal-asr-challenge-for-fongbe",
+   "source": "zindi",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "eb0db93f3170",
    "title": "Defy'27",
    "organiser": "Vellore Institute of Technology (VIT), Chennai",
@@ -2367,6 +3218,27 @@
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/defy27-vellore-institute-of-technology-vit-chennai-1806122",
    "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "7cbf2523618c",
+   "title": "Dis-Chem Product Data Enrichment Challenge",
+   "organiser": "Zindi",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-13",
+   "end_date": "2026-12-14",
+   "deadline": "2026-12-14",
+   "stipend_or_prize": "$5 000 USD",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/dischem-product-data-entichment-challenge",
+   "source": "zindi",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -2471,6 +3343,27 @@
    "stipend_or_prize": "₹183,000 in prizes",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/hackz26-computer-science-and-engineering-association-csea-ceg-anna-university-1776729",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "089be502787c",
+   "title": "Singularity 2.0",
+   "organiser": "KC College of Engineering and Management Studies and Research",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Thane, Maharashtra, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-01-17",
+   "deadline": "2026-12-15",
+   "stipend_or_prize": "₹40,000 in prizes",
+   "eligibility": "Engineering Students, Undergraduate",
+   "url": "https://unstop.com/hackathons/singularity-20-kc-college-of-engineering-and-management-studies-and-research-1755564",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -2648,6 +3541,48 @@
    "verified": true
   },
   {
+   "id": "c40bab6a36e2",
+   "title": "Free Live Webinar on Full Stack Python with Gen AI | 24 November 2026",
+   "organiser": "Quality Thought Info Systems",
+   "type": "webinar",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-24",
+   "deadline": "2026-12-24",
+   "stipend_or_prize": "",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/workshops-webinars/free-live-webinar-on-full-stack-python-with-gen-ai-24-november-2026-quality-thought-info-systems-1817413",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "3bb7eea0d19a",
+   "title": "Advanced Computing for The Future: Supercomputing, Artificial Intelligence and Data Science",
+   "organiser": "Maharaja Institute of Technology (MIT), Mysore",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-25",
+   "deadline": "2026-12-25",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/advanced-computing-for-the-future-supercomputing-artificial-intelligence-and-data-science-httpsmitmys-1791395",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "a523b81730b0",
    "title": "ELU Build",
    "organiser": "EduLinkUp",
@@ -2664,6 +3599,27 @@
    "stipend_or_prize": "",
    "eligibility": "All",
    "url": "https://unstop.com/hackathons/elubuild-edulinkup-1811493",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "f44d10f5e3d4",
+   "title": "Live Webinar on AI & ML with Data Science | 26th November 2026",
+   "organiser": "Quality Thought Info Systems",
+   "type": "webinar",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-25",
+   "deadline": "2026-12-25",
+   "stipend_or_prize": "",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/workshops-webinars/live-webinar-on-ai-ml-with-data-science-26th-november-2026-quality-thought-info-systems-1818997",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -2770,6 +3726,28 @@
    "eligibility": "Teams of 1–4",
    "url": "https://hack-with-gdg-s4.devfolio.co/",
    "source": "devfolio",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "e3b3ab0159b4",
+   "title": "Hacknexus",
+   "organiser": "Mastermind Research Technologies",
+   "type": "hackathon",
+   "fields": [
+    "healthcare-ai",
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-31",
+   "deadline": "2026-12-31",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/hacknexus-mastermind-research-technologies-1746846",
+   "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -2897,6 +3875,27 @@
    "eligibility": "Teams of 2–4",
    "url": "https://hack-1736.devfolio.co/",
    "source": "devfolio",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "7814cc87b4b4",
+   "title": "TelcoRetrieve Challenge: Unlocking Telco Knowledge",
+   "organiser": "ITU",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-13",
+   "end_date": "2027-01-14",
+   "deadline": "2027-01-07",
+   "stipend_or_prize": "€25 000 EUR",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/telcoretrieve-challenge-unlocking-telco-knowledge",
+   "source": "zindi",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -3219,6 +4218,28 @@
    "verified": true
   },
   {
+   "id": "c26a751107c2",
+   "title": "Bayer Foundation Scientific Fellowships 2027 (up to €10,000)",
+   "organiser": "",
+   "type": "fellowship",
+   "fields": [
+    "healthcare-ai"
+   ],
+   "mode": "offline",
+   "location": "",
+   "region": "International",
+   "start_date": null,
+   "end_date": null,
+   "deadline": "2027-01-18",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://opportunitydesk.org/2026/11/13/bayer-foundation-scientific-fellowships-2027/",
+   "source": "opportunitydesk",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Posted 2026-11-14 on Opportunity Desk"
+  },
+  {
    "id": "9c15ca08a51a",
    "title": "(2027) CBW/CS-DCC Microbiome Analysis: Edmonton, AB",
    "organiser": "Canadian Bioinformatics Workshops (CBW)",
@@ -3264,6 +4285,27 @@
    "source": "embl_ebi",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "a6ba84a0d7f2",
+   "title": "Linux command line",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-01-19",
+   "end_date": "2027-01-19",
+   "deadline": "2027-01-19",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/linux-command-line-1",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
   },
   {
    "id": "148cafbd665c",
@@ -3332,6 +4374,27 @@
    "date_added": "2026-11-20",
    "verified": true,
    "notes": "Applications open 2026-12-20"
+  },
+  {
+   "id": "7842a929abf8",
+   "title": "High performance computing on the Vlaamse Supercomputer",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-01-22",
+   "end_date": "2027-01-22",
+   "deadline": "2027-01-22",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/high-performance-computing-vlaamse-supercomputer-2",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
   },
   {
    "id": "c24fb8d85b23",
@@ -3422,6 +4485,27 @@
    "verified": false
   },
   {
+   "id": "a1378605b4aa",
+   "title": "First Steps with Python in Life Sciences",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Lausanne, Switzerland",
+   "region": "International",
+   "start_date": "2027-01-27",
+   "end_date": "2027-01-29",
+   "deadline": "2027-01-27",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20270127_FSWPY",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "012dce252c4e",
    "title": "A journey through the MICROBE project: making data FAIR with EMBL-EBI resources",
    "organiser": "European Bioinformatics Institute (EBI)",
@@ -3485,6 +4569,29 @@
    "verified": false
   },
   {
+   "id": "1da7c0b3b0e2",
+   "title": "Introduction to Statistics with R",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "healthcare-ai",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Bern, Switzerland",
+   "region": "International",
+   "start_date": "2027-02-01",
+   "end_date": "2027-02-03",
+   "deadline": "2027-02-01",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20270201_STATR",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "custom-nus-amgen-asia-2027",
    "title": "NUS Amgen Scholars Asia 2027",
    "organiser": "National University of Singapore / Amgen Foundation",
@@ -3509,13 +4616,56 @@
    "notes": "Programme runs 31 May to 30 Jul 2027"
   },
   {
+   "id": "036aeafceb39",
+   "title": "R Introduction",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-02-01",
+   "end_date": "2027-02-15",
+   "deadline": "2027-02-01",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/r-introduction-2",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "f5a85d8acd7d",
+   "title": "Kansalaistiede datan lähteenä ja voimavarana",
+   "organiser": "",
+   "type": "webinar",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-02-02",
+   "end_date": "2027-02-02",
+   "deadline": "2027-02-02",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://csc.fi/en/training-calendar/kansalaistiede-datan-lahteena-ja-voimavarana/",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "169ad45b8262",
    "title": "Analysing RNA structure-probing data with the rnastructurome nf-core pipeline",
    "organiser": "European Bioinformatics Institute (EBI)",
    "type": "webinar",
    "fields": [
     "bioinformatics",
-    "drug-discovery"
+    "drug-discovery",
+    "biotech"
    ],
    "mode": "online",
    "location": "Online",
@@ -3552,6 +4702,28 @@
    "verified": true
   },
   {
+   "id": "d333b1c5a644",
+   "title": "Using Spreadsheets to Record Data and Metadata",
+   "organiser": "Hub for Applied Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics"
+   ],
+   "mode": "offline",
+   "location": "London",
+   "region": "International",
+   "start_date": "2027-02-04",
+   "end_date": "2027-02-04",
+   "deadline": "2027-02-04",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/using-spreadsheets-to-record-data-and-metadata",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
+  },
+  {
    "id": "6fdffe3174b0",
    "title": "Hack@Brown 2027",
    "organiser": "MLH member event",
@@ -3569,6 +4741,27 @@
    "eligibility": "Students (check the event site for age and school rules)",
    "url": "https://hackatbrown.org/",
    "source": "mlh",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "4a4eafea029c",
+   "title": "AI Agents for RAN Challenge",
+   "organiser": "ITU",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-27",
+   "end_date": "2027-02-06",
+   "deadline": "2027-02-06",
+   "stipend_or_prize": "€30 000 EUR",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/ai-agents-for-ran-challenge",
+   "source": "zindi",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -3678,6 +4871,30 @@
    "verified": true
   },
   {
+   "id": "162e930f79d3",
+   "title": "In situ structural biology: bridging molecular mechanisms with system-wide approaches",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "protein",
+    "drug-discovery",
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-02-09",
+   "end_date": "2027-02-12",
+   "deadline": "2027-02-09",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/iss27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Fan Liu, Julia Mahamid, Jonas Ries, Stefano Vanni"
+  },
+  {
    "id": "b347df1de01a",
    "title": "Diversion 2k27",
    "organiser": "",
@@ -3720,6 +4937,48 @@
    "verified": true
   },
   {
+   "id": "a545082aeb56",
+   "title": "Green Rising Methane Innovation Challenge",
+   "organiser": "Zindi",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-12-11",
+   "end_date": "2027-02-14",
+   "deadline": "2027-02-14",
+   "stipend_or_prize": "$10 000 USD",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/green-rising-methane-innovation-challenge",
+   "source": "zindi",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "14592ab6346e",
+   "title": "AMD Global Physical AI Behavioral Safety Challenge",
+   "organiser": "Zindi",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-11-09",
+   "end_date": "2027-02-15",
+   "deadline": "2027-02-15",
+   "stipend_or_prize": "$10 000 USD",
+   "eligibility": "",
+   "url": "https://zindi.africa/competitions/amd-global-physical-ai-safety-challenge",
+   "source": "zindi",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "d8308043196c",
    "title": "Introduction to GPU Programming for Life Sciences",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -3740,6 +4999,50 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "2edc579178db",
+   "title": "Life Science Data Management: Planning workshop",
+   "organiser": "ELIXIR-Norway",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Bergen, Norway",
+   "region": "International",
+   "start_date": "2027-02-15",
+   "end_date": "2027-02-16",
+   "deadline": "2027-02-15",
+   "stipend_or_prize": "",
+   "eligibility": "Phd candidate, Post docs, Pissenior scientist/ principal investigator, Life scientists, All postgraduates, Researchers",
+   "url": "https://skjemaker.app.uib.no/view.php?id=21853613",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "275a4afa5e70",
+   "title": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "drug-discovery",
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-02-16",
+   "end_date": "2027-02-19",
+   "deadline": "2027-02-16",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/pbs27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Francesca Ciccarelli, Jan Korbel, Kiran Patil, Luis Serrano, Amoolya Singh, Nassos Typas"
   },
   {
    "id": "70e77f1ac963",
@@ -3763,6 +5066,50 @@
    "stipend_or_prize": "",
    "eligibility": "",
    "url": "https://www.sib.swiss/training/course/20270217_ISEDA",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "11aec21f6e7e",
+   "title": "Quantitative bioimage analysis in QuPath: Essentials",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "healthcare-ai",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Leuven, Belgium",
+   "region": "International",
+   "start_date": "2027-02-18",
+   "end_date": "2027-02-18",
+   "deadline": "2027-02-18",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/quantitative-bioimage-analysis-qupath-essentials-1",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "1eb5cca57a54",
+   "title": "Basic image processing using Fiji",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Leuven, Belgium",
+   "region": "International",
+   "start_date": "2027-02-19",
+   "end_date": "2027-02-19",
+   "deadline": "2027-02-19",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/basic-image-processing-using-fiji-11",
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
@@ -3817,6 +5164,75 @@
    "verified": false
   },
   {
+   "id": "4cda90b8ee4c",
+   "title": "Mass spectrometry-based proteomics",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "multi-omics",
+    "protein"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-02-23",
+   "end_date": "2027-02-24",
+   "deadline": "2027-02-23",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/mass-spectrometry-based-proteomics-0",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "0b06e3689551",
+   "title": "NGS: Bulk RNA-Seq",
+   "organiser": "Hub for Applied Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "genomics",
+    "transcriptomics"
+   ],
+   "mode": "offline",
+   "location": "London",
+   "region": "International",
+   "start_date": "2027-02-26",
+   "end_date": "2027-02-26",
+   "deadline": "2027-02-26",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/part-2-ngs-bulk-rna-seq-2027",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
+  },
+  {
+   "id": "f48666778450",
+   "title": "First Steps with R in Life Sciences",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "healthcare-ai",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Lausanne, Switzerland",
+   "region": "International",
+   "start_date": "2027-03-01",
+   "end_date": "2027-03-02",
+   "deadline": "2027-03-01",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20270301_FSWRR",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "33c19a35cb3f",
    "title": "Workshop on high-throughput sequencing data analysis with Galaxy",
    "organiser": "Galaxy Project community",
@@ -3838,6 +5254,52 @@
    "source": "galaxy",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "1e64176fe1d2",
+   "title": "Spatial metabolomics data analysis",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "multi-omics",
+    "protein",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Leuven, Belgium",
+   "region": "International",
+   "start_date": "2027-03-05",
+   "end_date": "2027-03-05",
+   "deadline": "2027-03-05",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/spatial-metabolomics-data-analysis",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "0ce764331dd6",
+   "title": "Quantitative proteomics: strategies and tools to probe biology",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "multi-omics",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-03-07",
+   "end_date": "2027-03-12",
+   "deadline": "2027-03-07",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/qpr27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Jeroen Krijgsveld, Christina Ludwig, Mikhail Savitski"
   },
   {
    "id": "43a08811c7d4",
@@ -3886,6 +5348,49 @@
    "source": "embl_ebi",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "c044c836770e",
+   "title": "Mechanisms of drug resistance and tolerance in bacteria, fungi, and cancer",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-03-09",
+   "end_date": "2027-03-12",
+   "deadline": "2027-03-09",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-05/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Judith Berman, Luiz Pedro Sorio de Carvalho, Markus Ralser, Mariangela Russo"
+  },
+  {
+   "id": "0794ae9a1ac8",
+   "title": "Research Data Management (RDM) in life sciences: Essentials",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Antwerpen, Belgium",
+   "region": "International",
+   "start_date": "2027-03-09",
+   "end_date": "2027-03-09",
+   "deadline": "2027-03-09",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/research-data-management-rdm-life-sciences-essentials-9",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
   },
   {
    "id": "23b7e4122503",
@@ -3939,6 +5444,28 @@
    "verified": false
   },
   {
+   "id": "ebb2d2c70ce6",
+   "title": "3D cultures: spheroids, organoids, and explants",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-03-14",
+   "end_date": "2027-03-19",
+   "deadline": "2027-03-14",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/tdc27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Olivier De Wever, Steffen Lange, Maria José Oliveira, Jens Puschhof, Elisabeth Zielonka"
+  },
+  {
    "id": "f8f899dfcfeb",
    "title": "Hackathon - March 2027",
    "organiser": "nf-core community",
@@ -3983,6 +5510,28 @@
    "date_added": "2026-11-20",
    "verified": false,
    "notes": "Cost: Charge"
+  },
+  {
+   "id": "a2ea1c60b3d9",
+   "title": "The expanding world of RBPs: from posttranscriptional control to riboregulation",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-03-15",
+   "end_date": "2027-03-18",
+   "deadline": "2027-03-15",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/rbp27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Francesca Cutruzzola, Imed Gallouzi, Matthias Hentze, V. Narry Kim"
   },
   {
    "id": "f7a8e694cc92",
@@ -4031,6 +5580,30 @@
    "verified": false
   },
   {
+   "id": "58bd5181e31e",
+   "title": "A Practical Introduction to NGS Data Analysis and Variant Calling",
+   "organiser": "ecSeq Bioinformatics GmbH",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "genomics",
+    "transcriptomics"
+   ],
+   "mode": "offline",
+   "location": "München, Germany",
+   "region": "International",
+   "start_date": "2027-03-22",
+   "end_date": "2027-03-24",
+   "deadline": "2027-03-22",
+   "stipend_or_prize": "",
+   "eligibility": "Biological sciences research students and postdocs who may want to use hpc in their research.please note that biochemistry first year graduate students book this course via their moodle site not…",
+   "url": "https://www.ecseq.com/workshops/workshop_2027-02-NGS-Next-Generation-Sequencing-Data-Analysis-A-Practical-Introduction",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
+  },
+  {
    "id": "adf5c16ed30e",
    "title": "Introduction to Machine Learning with R",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4077,6 +5650,28 @@
    "verified": false
   },
   {
+   "id": "e8320e4c9bd5",
+   "title": "Microbial metagenomics: a 360º approach",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "genomics"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-04-05",
+   "end_date": "2027-04-12",
+   "deadline": "2027-04-05",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/met27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Vladimir Benes, Guiseppe D'Auria, Raúl Muñoz Jiménez, Mariana Reyes Prieto, Elisabeth Zielonka"
+  },
+  {
    "id": "1984e53e877c",
    "title": "Workflow4Experimenters 2027",
    "organiser": "Galaxy Project community",
@@ -4097,6 +5692,93 @@
    "source": "galaxy",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "a39e5fcbf65b",
+   "title": "Python Programming",
+   "organiser": "Hub for Applied Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "healthcare-ai",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "London",
+   "region": "International",
+   "start_date": "2027-04-08",
+   "end_date": "2027-04-08",
+   "deadline": "2027-04-08",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/part-2-python-programming",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
+  },
+  {
+   "id": "4d33ca0bf438",
+   "title": "R Introduction",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-04-09",
+   "end_date": "2027-04-27",
+   "deadline": "2027-04-09",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/r-introduction-1",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "7e391bf4dd9a",
+   "title": "Inside the flow core: scientific excellence, facility operations, interpersonal dynamics",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-04-12",
+   "end_date": "2027-04-16",
+   "deadline": "2027-04-12",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ftf27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Amir Grau, Christopher Hall, Beáta Ramasz"
+  },
+  {
+   "id": "d930bbe39a81",
+   "title": "Reproducible data analysis: An essential capability in modern science",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-04-12",
+   "end_date": "2027-06-29",
+   "deadline": "2027-04-12",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/reproducible-data-analysis-essential-capability-modern-science",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
   },
   {
    "id": "5b226d18a868",
@@ -4120,6 +5802,50 @@
    "source": "embl_ebi",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "2256f3085ae9",
+   "title": "Statistics and Hypothesis Testing in R: A Practical Full-Day Workshop",
+   "organiser": "Hub for Applied Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "London",
+   "region": "International",
+   "start_date": "2027-04-13",
+   "end_date": "2027-04-13",
+   "deadline": "2027-04-13",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/statistics-and-hypothesis-testing-in-r-a-practical-full-day-workshop",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
+  },
+  {
+   "id": "c19428d36889",
+   "title": "The maternal-fetal dialogue: from mechanisms to pregnancy outcomes",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-04-13",
+   "end_date": "2027-04-16",
+   "deadline": "2027-04-13",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Kristina Haase, Ashley Moffett, Nicolas Rivron, Margherita Turco"
   },
   {
    "id": "aa2139ee1fc4",
@@ -4165,6 +5891,71 @@
    "verified": false
   },
   {
+   "id": "4c72a734be9c",
+   "title": "Advanced Statistics: Statistical Modelling",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Lausanne, Switzerland",
+   "region": "International",
+   "start_date": "2027-04-19",
+   "end_date": "2027-04-21",
+   "deadline": "2027-04-19",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20270419_ADDMG",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "aaab2275e2d8",
+   "title": "Research Data Management (RDM) in life sciences: Essentials",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-04-22",
+   "end_date": "2027-04-22",
+   "deadline": "2027-04-22",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/research-data-management-rdm-life-sciences-essentials-7",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "135d0d29f4d1",
+   "title": "Analysis and integration of transcriptome and proteome data",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "transcriptomics",
+    "multi-omics"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-04-25",
+   "end_date": "2027-04-30",
+   "deadline": "2027-04-25",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/pro27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Daria Fijalkowska, Jeroen Krijgsveld, Lennard Martens, Raffaele Calogero, Vladimir Benes"
+  },
+  {
    "id": "3649d6d1c3e5",
    "title": "(2027) Introduction to eDNA: Halifax, NS",
    "organiser": "Canadian Bioinformatics Workshops (CBW)",
@@ -4186,6 +5977,93 @@
    "verified": false
   },
   {
+   "id": "1914b294dd69",
+   "title": "Introduction to R Shiny",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "webinar",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Streamed, Switzerland",
+   "region": "Online",
+   "start_date": "2027-04-26",
+   "end_date": "2027-04-26",
+   "deadline": "2027-04-26",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20270426_SHINY",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "292421ab0317",
+   "title": "Chromatin and epigenetics",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-04-27",
+   "end_date": "2027-04-29",
+   "deadline": "2027-04-27",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/chr27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Asifa Akhtar, Giacomo Cavalli, Rob Klose, Geeta Narlikar"
+  },
+  {
+   "id": "fec8e2aabab6",
+   "title": "First Steps in Parallelization with OpenMP",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "webinar",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Streamed, Switzerland",
+   "region": "Online",
+   "start_date": "2027-04-27",
+   "end_date": "2027-04-27",
+   "deadline": "2027-04-27",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20270427_OPEMP",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "7aeb5e2dc804",
+   "title": "From Inputs to Insights: A Hands-On Introduction to Bulk RNA-seq Analysis",
+   "organiser": "Hub for Applied Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "genomics",
+    "transcriptomics"
+   ],
+   "mode": "offline",
+   "location": "London",
+   "region": "International",
+   "start_date": "2027-04-27",
+   "end_date": "2027-04-27",
+   "deadline": "2027-04-27",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/from-inputs-to-insights-a-hands-on-introduction-to-bulk-rna-seq-analysis",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Cost: Charge"
+  },
+  {
    "id": "bb068fb7ffc8",
    "title": "Enrichment Analysis",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4205,6 +6083,27 @@
    "stipend_or_prize": "",
    "eligibility": "",
    "url": "https://www.sib.swiss/training/course/20270430_ENRIC",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "3698a55a48fe",
+   "title": "Library Carpentry Workshop: Unix Shell, Python and Git",
+   "organiser": "ZB MED – Information Centre for Life Sciences",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-05-03",
+   "end_date": "2027-05-04",
+   "deadline": "2027-05-03",
+   "stipend_or_prize": "",
+   "eligibility": "Libraries, research data management",
+   "url": "https://zbmed.codeberg.page/events.html#2027-05-03-library-carpentry",
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
@@ -4255,6 +6154,29 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "c02f5bf670a6",
+   "title": "AI and biology",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech",
+    "ml-ai"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-05-11",
+   "end_date": "2027-05-14",
+   "deadline": "2027-05-11",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-12/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Mor Nitzan, Fabio Petroni, Oliver Stegle"
   },
   {
    "id": "47082d855331",
@@ -4346,6 +6268,48 @@
    "verified": true
   },
   {
+   "id": "a51ee33eb937",
+   "title": "High Performance Computing: Structure and practice essentials",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-05-18",
+   "end_date": "2027-05-18",
+   "deadline": "2027-05-18",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/high-performance-computing-structure-and-practice-essentials-1",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "30078023b038",
+   "title": "Containerize data analysis with Docker & Apptainer",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-05-19",
+   "end_date": "2027-05-20",
+   "deadline": "2027-05-19",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/containerize-data-analysis-docker-apptainer-0",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "117e6e183794",
    "title": "mOTUs: A unified framework for global metagenomics",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4388,6 +6352,28 @@
    "verified": false
   },
   {
+   "id": "f1b098fc7d0f",
+   "title": "BioMalPar XXIII: biology and pathology of the malaria parasite",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-05-24",
+   "end_date": "2027-05-26",
+   "deadline": "2027-05-24",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/bmp27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Ana Rita Gomes, Ashley Vaughan, Danny Wilson, Nisha Philip"
+  },
+  {
    "id": "21415b8c930b",
    "title": "Statistics and Machine Learning for Life Sciences",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4409,6 +6395,49 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "2327f560a36c",
+   "title": "Research Data Management (RDM) in life sciences: Essentials",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Leuven, Belgium",
+   "region": "International",
+   "start_date": "2027-05-25",
+   "end_date": "2027-05-25",
+   "deadline": "2027-05-25",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/research-data-management-rdm-life-sciences-essentials-8",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "17ec6caeee07",
+   "title": "Emerging technologies in developmental biology",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-05-31",
+   "end_date": "2027-06-08",
+   "deadline": "2027-05-31",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/etb27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Marianne Bronner, Michael Dorrity, Jordi van Gestel, Berta Verd, Hanh Vu"
   },
   {
    "id": "00ec0a223444",
@@ -4433,6 +6462,27 @@
    "verified": true
   },
   {
+   "id": "b58eb34f454f",
+   "title": "Nextflow for reproducible and automated data analysis",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics"
+   ],
+   "mode": "offline",
+   "location": "Leuven, Belgium",
+   "region": "International",
+   "start_date": "2027-06-03",
+   "end_date": "2027-06-04",
+   "deadline": "2027-06-03",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/nextflow-reproducible-and-automated-data-analysis-8",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "94ae4c9a6967",
    "title": "(2027) RNA-seq Analysis: Toronto, ON",
    "organiser": "CBW",
@@ -4453,6 +6503,50 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "10699aa87ab5",
+   "title": "Basic image processing using Fiji",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Antwerpen, Belgium",
+   "region": "International",
+   "start_date": "2027-06-08",
+   "end_date": "2027-06-08",
+   "deadline": "2027-06-08",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/basic-image-processing-using-fiji-12",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "55a1cb1f4e9f",
+   "title": "Emerging concepts in developmental biology",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-06-08",
+   "end_date": "2027-06-11",
+   "deadline": "2027-06-08",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-02/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Justin Crocker, Nicoletta Petridou, Alexander Schier, Joanna Wysocka"
   },
   {
    "id": "ab82d2b45c81",
@@ -4544,6 +6638,28 @@
    "verified": true
   },
   {
+   "id": "1dd32a94fd2f",
+   "title": "Quantitative bioimage analysis in QuPath: Essentials",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "healthcare-ai",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Antwerpen, Belgium",
+   "region": "International",
+   "start_date": "2027-06-09",
+   "end_date": "2027-06-09",
+   "deadline": "2027-06-09",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/quantitative-bioimage-analysis-qupath-essentials-2",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "b14f54606612",
    "title": "NGS - Genome Variant Analysis",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4564,6 +6680,73 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "f3750ead9cb2",
+   "title": "Computational modelling of multicellular systems",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Barcelona, Spain",
+   "region": "International",
+   "start_date": "2027-06-12",
+   "end_date": "2027-06-18",
+   "deadline": "2027-06-12",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/mmc27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Katie Bentley, James Sharpe, Alejandro Torres-Sánchez, Alexandria Volkening"
+  },
+  {
+   "id": "264d071ce15e",
+   "title": "Data science for life scientists",
+   "organiser": "EMBL-EBI",
+   "type": "workshop",
+   "fields": [
+    "ml-ai",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Hinxton, UK",
+   "region": "International",
+   "start_date": "2027-06-13",
+   "end_date": "2027-06-17",
+   "deadline": "2027-06-13",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/data-science-life-scientists-2027",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Charlotte Courtney"
+  },
+  {
+   "id": "cbd6e8959384",
+   "title": "Measuring translational dynamics by ribosome profiling",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-06-13",
+   "end_date": "2027-06-18",
+   "deadline": "2027-06-13",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/mtd27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Pasha Baranov, Sebastian Leidel, Jan Medenbach, Ayala Shiber, Elisabeth Zielonka"
   },
   {
    "id": "6d91efe86c08",
@@ -4610,26 +6793,26 @@
    "notes": "Cost: Charge"
   },
   {
-   "id": "f4a0e4dfc786",
-   "title": "Data science for life scientists",
-   "organiser": "European Bioinformatics Institute (EBI)",
-   "type": "workshop",
+   "id": "5d656292ffd3",
+   "title": "Mutations in time and space",
+   "organiser": "EMBL",
+   "type": "conference",
    "fields": [
-    "biotech",
-    "ml-ai"
+    "biotech"
    ],
-   "mode": "offline",
-   "location": "United Kingdom",
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
    "region": "International",
-   "start_date": "2027-06-14",
+   "start_date": "2027-06-15",
    "end_date": "2027-06-18",
-   "deadline": "2027-06-14",
+   "deadline": "2027-06-15",
    "stipend_or_prize": "",
    "eligibility": "",
-   "url": "https://www.ebi.ac.uk/training/events/data-science-life-scientists-2027",
-   "source": "embl_ebi",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/mts27-01",
+   "source": "embl",
    "date_added": "2026-11-20",
-   "verified": true
+   "verified": true,
+   "notes": "Speakers: Craig Anderson, Tim Coorens, Kamila Naxerova, Michelle Trenkmann"
   },
   {
    "id": "87192832411c",
@@ -4656,6 +6839,49 @@
    "verified": false
   },
   {
+   "id": "f43a0b2f7a84",
+   "title": "New approaches and concepts in microbiology",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-06-22",
+   "end_date": "2027-06-25",
+   "deadline": "2027-06-22",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-07",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Pascale Cossart, Sophie Helaine, K.C. Huang, Michael Laub, Nassos Typas"
+  },
+  {
+   "id": "632b812e06b5",
+   "title": "Teach your computer to see objects on bioimages with Ilastik",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Leuven, Belgium",
+   "region": "International",
+   "start_date": "2027-06-25",
+   "end_date": "2027-06-25",
+   "deadline": "2027-06-25",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/teach-your-computer-see-objects-bioimages-ilastik-0",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "8642bf7ebd62",
    "title": "2027 Galaxy Community Conference (GCC2027)",
    "organiser": "Galaxy Project community",
@@ -4675,6 +6901,29 @@
    "source": "galaxy",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "eae6c951ba00",
+   "title": "Exploring microbial communities through metagenomics bioinformatics",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "genomics"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-06-27",
+   "end_date": "2027-07-01",
+   "deadline": "2027-06-27",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-2027",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Sophie Spencer"
   },
   {
    "id": "1d40e5c1dfe0",
@@ -4719,26 +6968,70 @@
    "verified": false
   },
   {
-   "id": "cef8dd2dfe10",
-   "title": "Exploring microbial communities through metagenomics bioinformatics",
-   "organiser": "European Bioinformatics Institute (EBI)",
+   "id": "0823389214ab",
+   "title": "Advanced deep learning for image analysis",
+   "organiser": "EMBL",
    "type": "workshop",
    "fields": [
-    "bioinformatics",
-    "genomics"
+    "ml-ai"
    ],
-   "mode": "online",
-   "location": "United Kingdom",
-   "region": "Online",
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
    "start_date": "2027-06-28",
    "end_date": "2027-07-02",
    "deadline": "2027-06-28",
    "stipend_or_prize": "",
    "eligibility": "",
-   "url": "https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-2027",
-   "source": "embl_ebi",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/mac27-01/",
+   "source": "embl",
    "date_added": "2026-11-20",
-   "verified": true
+   "verified": true,
+   "notes": "Speakers: Florian Jug, Anna Kreshuk, Constantin Pape, Martin Weigert"
+  },
+  {
+   "id": "e521a83fe646",
+   "title": "Evolutionary biochemistry and molecular biology: origin and diversification of molecular systems",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "drug-discovery",
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-06-29",
+   "end_date": "2027-07-02",
+   "deadline": "2027-06-29",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-03",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Gautam Dey, Georg Hochberg, Laura Mascotti, Markus Ralser"
+  },
+  {
+   "id": "14825532e74a",
+   "title": "Best Practices in Programming",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Zürich, Switzerland",
+   "region": "International",
+   "start_date": "2027-07-01",
+   "end_date": "2027-07-02",
+   "deadline": "2027-07-01",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20270701_BBPRO",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
   },
   {
    "id": "347d22be60be",
@@ -4786,6 +7079,28 @@
    "verified": false
   },
   {
+   "id": "dd66103c2f86",
+   "title": "Fluorescence imaging beyond intensity",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-07-12",
+   "end_date": "2027-07-16",
+   "deadline": "2027-07-12",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/lef27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Birgit Koch, Manuel Gunkel, Zhongxiang Jiang, Julia Roberti"
+  },
+  {
    "id": "789292f49880",
    "title": "Proteomics bioinformatics",
    "organiser": "European Bioinformatics Institute (EBI)",
@@ -4810,6 +7125,72 @@
    "verified": true
   },
   {
+   "id": "e5065ca578c9",
+   "title": "Gene regulation: one molecule at a time",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "drug-discovery"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-07-13",
+   "end_date": "2027-07-16",
+   "deadline": "2027-07-13",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/grg27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Stirling Churchman, Arnaud Krebs, Mounia Lagha, Daniel Larson"
+  },
+  {
+   "id": "2b6e29e71272",
+   "title": "Computing skills for reproducible research: software carpentry",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany; Rome, Italy",
+   "region": "International",
+   "start_date": "2027-07-19",
+   "end_date": "2027-07-23",
+   "deadline": "2027-07-19",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/swc27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Christian Schudoma, Deborah Udoh, Francesco Tabaro, Lisanna Paladin, Renato Alves"
+  },
+  {
+   "id": "317bb9d6dad3",
+   "title": "Theory and concepts in biology",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-07-20",
+   "end_date": "2027-07-23",
+   "deadline": "2027-07-20",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-06/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Alexander Aulehla, Jordi Garcia-Ojalvo, Isabella Graf, Christina Hueschen, Madan Rao, Kirsty Wan"
+  },
+  {
    "id": "0e6553bdcadc",
    "title": "Biodiversity bioinformatics: from large-scale phylogenomics to gene families and functions",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4832,6 +7213,73 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "eaa05c61f5ae",
+   "title": "Imaging-based spatial-omics",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "single-cell",
+    "multi-omics"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-08-29",
+   "end_date": "2027-09-03",
+   "deadline": "2027-08-29",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/iso27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Alvaro Crevenna, Marco Grillo, Andrea Radtke"
+  },
+  {
+   "id": "c19e08bc6fe8",
+   "title": "Protein synthesis and translational control",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "protein"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-09-01",
+   "end_date": "2027-09-05",
+   "deadline": "2027-09-01",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/trc27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Alfredo Castello, Christopher Fraser, Christian Spahn, Wendy Gilbert"
+  },
+  {
+   "id": "7f10807b0fa2",
+   "title": "Genome engineering: CRISPR/Cas in cells and mice",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "genomics"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-09-12",
+   "end_date": "2027-09-17",
+   "deadline": "2027-09-12",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/gee27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Silke Deckert, Neil Humphreys, Kristof Kersse, Birgit Koch"
   },
   {
    "id": "2c42dc9b549b",
@@ -4859,6 +7307,28 @@
    "verified": true
   },
   {
+   "id": "cdcab16db883",
+   "title": "The Peer Bork symposium on the human microbiome",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-09-14",
+   "end_date": "2027-09-17",
+   "deadline": "2027-09-14",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-08/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Ami Bhatt, Manimozhiyan Arumugam, Maria Zimmermann-Kogadeeva, Nicola Segata"
+  },
+  {
    "id": "918e013daf8a",
    "title": "Introduction to Machine Learning with Python",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4883,10 +7353,10 @@
    "verified": false
   },
   {
-   "id": "200d05fbebba",
+   "id": "d429b4fc31e9",
    "title": "Interpreting the effects of genetic variants on protein structure and function",
-   "organiser": "European Bioinformatics Institute (EBI)",
-   "type": "webinar",
+   "organiser": "EMBL",
+   "type": "workshop",
    "fields": [
     "genomics",
     "protein"
@@ -4894,15 +7364,85 @@
    "mode": "online",
    "location": "Online",
    "region": "Online",
-   "start_date": "2027-09-23",
-   "end_date": "2027-09-23",
-   "deadline": "2027-09-23",
+   "start_date": "2027-09-22",
+   "end_date": "2027-09-22",
+   "deadline": "2027-09-22",
    "stipend_or_prize": "",
    "eligibility": "",
    "url": "https://www.ebi.ac.uk/training/events/interpreting-effects-genetic-variants-2027",
-   "source": "embl_ebi",
+   "source": "embl",
    "date_added": "2026-11-20",
-   "verified": true
+   "verified": true,
+   "notes": "Speakers: Toke Labiyi"
+  },
+  {
+   "id": "f5192298ad05",
+   "title": "FISHing for RNAs: classical to single molecule approaches",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "drug-discovery"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-09-26",
+   "end_date": "2027-10-01",
+   "deadline": "2027-09-26",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/fis27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Florence Besse, Mainak Bose, Imre Gaspar, Emerald Perlas, Elisabeth Zielonka"
+  },
+  {
+   "id": "2d0c7f79e4a3",
+   "title": "The epitranscriptome",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-09-28",
+   "end_date": "2027-10-01",
+   "deadline": "2027-09-28",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/etc27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Eva Kowalinski, Eva Maria Novoa, Tsutomu Suzuki, Chengqi Yi"
+  },
+  {
+   "id": "custom-oist-research-internship-fall-2027",
+   "title": "OIST Research Internship (Fall 2027 round)",
+   "organiser": "Okinawa Institute of Science and Technology",
+   "type": "internship",
+   "fields": [
+    "computational-biology",
+    "neuroscience",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Okinawa, Japan",
+   "region": "International",
+   "start_date": "2027-10-01",
+   "end_date": null,
+   "deadline": null,
+   "stipend_or_prize": "Paid (stipend, travel and housing support)",
+   "eligibility": "Students in the final two years of their undergraduate degree; no English test required",
+   "url": "https://www.oist.jp/admissions/research-internship/apply-research-internship",
+   "source": "custom",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Spring 2027 round closed 15 Oct 2026. Fall 2027 round reportedly closes around 15 Apr 2027 (not yet confirmed by OIST)",
+   "expected": true
   },
   {
    "id": "47094c70f910",
@@ -4951,6 +7491,51 @@
    "verified": false
   },
   {
+   "id": "b1b58ffe7fe8",
+   "title": "Seeing is believing: imaging the molecular processes of life",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "drug-discovery"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-10-05",
+   "end_date": "2027-10-08",
+   "deadline": "2027-10-05",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-09",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Jan Ellenberg, Jennifer Lippincott-Schwartz, Satyajit Mayor, Atsushi Miyawaki, Carolina Wählby"
+  },
+  {
+   "id": "920488b02c36",
+   "title": "First Steps with R in Life Sciences",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "healthcare-ai",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Zürich, Switzerland",
+   "region": "International",
+   "start_date": "2027-10-07",
+   "end_date": "2027-10-08",
+   "deadline": "2027-10-07",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20271007_FSWRR",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
    "id": "9b768a48804d",
    "title": "Introduction to Sequencing Data Analysis",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -4977,6 +7562,28 @@
    "verified": false
   },
   {
+   "id": "eea2d366a868",
+   "title": "Liquid biopsies",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-10-11",
+   "end_date": "2027-10-15",
+   "deadline": "2027-10-11",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/liq27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Anders Ståhlberg, Emma Tham, Martin Dallin"
+  },
+  {
    "id": "d4c0e8daeaa8",
    "title": "Methods for infectious disease modelling using genomics",
    "organiser": "European Bioinformatics Institute (EBI)",
@@ -4999,6 +7606,50 @@
    "verified": true
   },
   {
+   "id": "e9029f5c1b64",
+   "title": "The role of temperature in biology across scales",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-10-12",
+   "end_date": "2027-10-15",
+   "deadline": "2027-10-12",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-04",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Vanessa Barone, Maria Bernabeu, Michael Dorrity, Lendert Gelens, Ulrich Schwarz"
+  },
+  {
+   "id": "b0965b4a3ce1",
+   "title": "Organoids: modelling organ development and disease in 3D",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "healthcare-ai"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-10-20",
+   "end_date": "2027-10-23",
+   "deadline": "2027-10-20",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-10/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Giorgia Quadrato, Ieva Gailite, Karl R. Koehler, Meritxell Huch"
+  },
+  {
    "id": "30b83381fcba",
    "title": "Single-Cell Transcriptomics with R",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -5018,6 +7669,73 @@
    "stipend_or_prize": "",
    "eligibility": "",
    "url": "https://www.sib.swiss/training/course/20271020_ISCTR",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "f0397cd96da2",
+   "title": "Advanced methods in bioimage analysis",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-10-24",
+   "end_date": "2027-10-29",
+   "deadline": "2027-10-24",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/bia27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Ignacio Arganda-Carreras, Anna Klemm, , Christian Tischer"
+  },
+  {
+   "id": "2c89bd1ae49f",
+   "title": "Computational structural biology",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "protein",
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-10-26",
+   "end_date": "2027-10-29",
+   "deadline": "2027-10-26",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/csb27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Rommie Amaro, Janani Durairaj, Birte Höcker, Jan Kosinski, Martin Steinegger"
+  },
+  {
+   "id": "69019b5645e4",
+   "title": "UNIX Shell Scripting in Life Sciences",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Geneva, Switzerland",
+   "region": "International",
+   "start_date": "2027-10-27",
+   "end_date": "2027-11-17",
+   "deadline": "2027-10-27",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20271027_ADVUN",
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
@@ -5045,6 +7763,28 @@
    "verified": false
   },
   {
+   "id": "8e67169d40c5",
+   "title": "The mobile genome: genetic and physiological impacts of transposable elements",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "genomics"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-11-02",
+   "end_date": "2027-11-05",
+   "deadline": "2027-11-02",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/mge27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Deborah Bourc'his, Josefa González Perez, Joseph Peters, Leandro Quadrana"
+  },
+  {
    "id": "b94c1f1eaff5",
    "title": "3rd Berlin Winter School in RNA-Seq Data Analysis",
    "organiser": "ecSeq Bioinformatics GmbH",
@@ -5069,6 +7809,71 @@
    "notes": "Cost: Charge"
   },
   {
+   "id": "34c4a5b935e9",
+   "title": "Hands-on flow cytometry: learning by doing!",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-11-08",
+   "end_date": "2027-11-12",
+   "deadline": "2027-11-08",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/cyt27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Alex Cabrera Nuñez, Daniel Gimenes, Diana Ordoñez, Steffen Schmitt"
+  },
+  {
+   "id": "5d3061e67c51",
+   "title": "Introduction to Spatial Proteomics",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "workshop",
+   "fields": [
+    "multi-omics"
+   ],
+   "mode": "offline",
+   "location": "Geneva, Switzerland",
+   "region": "International",
+   "start_date": "2027-11-08",
+   "end_date": "2027-11-09",
+   "deadline": "2027-11-08",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20271108_SPPRO",
+   "source": "tess",
+   "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "de3593f7a044",
+   "title": "Cancer genomics",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "genomics"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-11-09",
+   "end_date": "2027-11-12",
+   "deadline": "2027-11-09",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/can27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Kathy Burns, Tim Coorens, Isidro Cortés-Ciriano, Daniela Robles-Espinoza"
+  },
+  {
    "id": "c0548563470c",
    "title": "Genome bioinformatics: from short- to long-read sequencing",
    "organiser": "European Bioinformatics Institute (EBI)",
@@ -5090,6 +7895,117 @@
    "source": "embl_ebi",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "166c1d21571d",
+   "title": "Cell biology of the nucleus",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-11-16",
+   "end_date": "2027-11-19",
+   "deadline": "2027-11-16",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-11/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Simone Köhler, Patrick Lusk, Thomas Quail, Sara Wickström"
+  },
+  {
+   "id": "b2dd5be73842",
+   "title": "Volume electron microscopy by automated serial SEM",
+   "organiser": "EMBO / EMBL",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-11-21",
+   "end_date": "2027-11-26",
+   "deadline": "2027-11-21",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/vem27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Christel Genoud, Anneke Kremer, Paolo Ronchi, Yannick Schwab"
+  },
+  {
+   "id": "1baeb95c0986",
+   "title": "AI in medicine: will it work or will it hurt?",
+   "organiser": "EMBL",
+   "type": "conference",
+   "fields": [
+    "healthcare-ai",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-11-30",
+   "end_date": "2027-12-01",
+   "deadline": "2027-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/sns27-01",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Adam Rutherford, Ewan Birney, Nicola Perrin, Nuria Lopez-Bigas"
+  },
+  {
+   "id": "6fdf52e49ca1",
+   "title": "Developmental metabolism: flows of energy, matter, and information",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2027-12-07",
+   "end_date": "2027-12-10",
+   "deadline": "2027-12-07",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/dmb27-01/",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Heather Christofk, Heidi Lempradl, Jonathan Rodenfels, Hanh Vu"
+  },
+  {
+   "id": "c2fc835723ad",
+   "title": "Cell cycle, cell plasticity, and cell fate: connecting cell expansion to cell function in development and disease",
+   "organiser": "EMBO / EMBL",
+   "type": "conference",
+   "fields": [
+    "healthcare-ai"
+   ],
+   "mode": "hybrid",
+   "location": "Heidelberg, Germany",
+   "region": "International",
+   "start_date": "2028-02-15",
+   "end_date": "2028-02-18",
+   "deadline": "2028-02-15",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/ees28-04",
+   "source": "embl",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Speakers: Joshua Brickman, Anja Groth, Mitinori Saitou, Kenneth Zaret"
   },
   {
    "id": "21ac762496f8",
@@ -5239,6 +8155,54 @@
    "expected": true
   },
   {
+   "id": "custom-jncasr-srfp-2027",
+   "title": "JNCASR Summer Research Fellowship Programme (SRFP) 2027",
+   "organiser": "Jawaharlal Nehru Centre for Advanced Scientific Research",
+   "type": "fellowship",
+   "fields": [
+    "biotech",
+    "computational-biology"
+   ],
+   "mode": "offline",
+   "location": "Bengaluru, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "stipend_or_prize": "Monthly stipend + travel (amount on site)",
+   "eligibility": "UG/PG science and engineering students in India; check year criteria in the call",
+   "url": "https://www.jncasr.ac.in/fandeprogrammes",
+   "source": "custom",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "2027 call not out yet; the 2026 deadline was 31 Jan 2026 (2025: 10 Feb)",
+   "expected": true
+  },
+  {
+   "id": "custom-kaust-vsrp",
+   "title": "KAUST Visiting Student Research Program (VSRP)",
+   "organiser": "King Abdullah University of Science and Technology",
+   "type": "internship",
+   "fields": [
+    "bioinformatics",
+    "biotech",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Thuwal, Saudi Arabia",
+   "region": "International",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "stipend_or_prize": "USD 1,000/month + housing + airfare",
+   "eligibility": "STEM undergraduates from 3rd year (some sources: after 2nd year), GPA 3.5/4 or equivalent",
+   "url": "https://admissions.kaust.edu.sa/study/internships",
+   "source": "custom",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Rolling applications all year: pick a project from the VSRP portal"
+  },
+  {
    "id": "7c0ef9968f24",
    "title": "The Digital Pen Feature Extraction Challenge",
    "organiser": "DREAM Challenges / Sage Bionetworks",
@@ -5258,6 +8222,101 @@
    "source": "dream",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "custom-tifrh-vsrp-2027",
+   "title": "TIFR Hyderabad Visiting Students' Research Programme (VSRP) 2027",
+   "organiser": "Tata Institute of Fundamental Research, Hyderabad",
+   "type": "internship",
+   "fields": [
+    "biotech",
+    "computational-biology",
+    "systems-biology"
+   ],
+   "mode": "offline",
+   "location": "Hyderabad, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "stipend_or_prize": "Stipend (see site)",
+   "eligibility": "UG/PG students; TIFR-H includes biology labs",
+   "url": "https://www.tifrh.res.in/academics/vsrp/",
+   "source": "custom",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "2027 call not out yet; the 2026 deadline was 31 Jan 2026",
+   "expected": true
+  },
+  {
+   "id": "bb8019f87596",
+   "title": "VBC Summer School 2027 in Vienna, Austria: Fully Funded 9-Week and 3-Month Research Programs for Bachelor’s and Master’s Students",
+   "organiser": "",
+   "type": "summer-school",
+   "fields": [
+    "healthcare-ai",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "",
+   "region": "International",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "stipend_or_prize": "Fully funded",
+   "eligibility": "",
+   "url": "https://opportunitiesforyouth.org/2026/11/20/vbc-summer-school-2027-in-vienna-austria-fully-funded-9-week-and-3-month-research-programs-for-bachelors-and-masters-students/",
+   "source": "ofy",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Posted 2026-11-20 on Opportunities For Youth"
+  },
+  {
+   "id": "custom-vbc-summer-school-2027",
+   "title": "Vienna BioCenter (VBC) Summer School 2027",
+   "organiser": "Vienna BioCenter (IMP, IMBA, GMI, Max Perutz Labs)",
+   "type": "internship",
+   "fields": [
+    "biotech",
+    "computational-biology",
+    "genomics"
+   ],
+   "mode": "offline",
+   "location": "Vienna, Austria",
+   "region": "International",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "stipend_or_prize": "Fully funded (stipend, travel, accommodation)",
+   "eligibility": "Bachelor's and Master's students in life sciences; 9-week lab research",
+   "url": "https://training.vbc.ac.at/summer-school/",
+   "source": "custom",
+   "date_added": "2026-11-20",
+   "verified": true,
+   "notes": "Call usually opens 1 Dec and closes 31 Jan; the 2026 call closed 11 Jan 2026",
+   "expected": true
+  },
+  {
+   "id": "fefb3e549634",
+   "title": "WHO Launches Together for Science and Health: A Global Movement Inviting Organizations to Strengthen Trust in Science and Improve Health for All",
+   "organiser": "",
+   "type": "conference",
+   "fields": [
+    "healthcare-ai"
+   ],
+   "mode": "offline",
+   "location": "",
+   "region": "International",
+   "start_date": null,
+   "end_date": null,
+   "deadline": null,
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://opportunitiesforyouth.org/2026/11/14/who-launches-together-for-science-and-health-a-global-movement-inviting-organizations-to-strengthen-trust-in-science-and-improve-health-for-all/",
+   "source": "ofy",
+   "date_added": "2026-11-20",
+   "verified": false,
+   "notes": "Posted 2026-11-14 on Opportunities For Youth"
   }
  ]
 }

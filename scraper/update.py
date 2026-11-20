@@ -268,11 +268,11 @@ def main():
 
     # ---- summary ----------------------------------------------------------
     print("\n================ SUMMARY ================")
-    print(f"{'source':<14}{'status':<10}{'items':>6}")
+    print(f"{'source':<17}{'status':<10}{'items':>6}")
     for name, s in stats.items():
         extra = f"  (kept {s['kept_from_last_run']} old)" if s.get("kept_from_last_run") else ""
-        print(f"{name:<14}{s['status']:<10}{s.get('count', 0):>6}{extra}")
-    print(f"{'custom':<14}{'ok':<10}{len(custom):>6}")
+        print(f"{name:<17}{s['status']:<10}{s.get('count', 0):>6}{extra}")
+    print(f"{'custom':<17}{'ok':<10}{len(custom):>6}")
     print("-----------------------------------------")
     print(f"open opportunities written : {len(current)}")
     print(f"new since last run         : {len(new_items)}")

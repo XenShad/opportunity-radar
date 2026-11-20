@@ -20,6 +20,7 @@ const SOURCE_NAMES = {
   mlh: "MLH", unstop: "Unstop", hackerearth: "HackerEarth", devfolio: "Devfolio",
   kaggle: "Kaggle", dream: "DREAM", embl_ebi: "EMBL-EBI", tess: "TeSS",
   biotecnika: "Biotecnika", galaxy: "Galaxy", nfcore: "nf-core", ncbi: "NCBI",
+  embl: "EMBL", ofy: "Opportunities For Youth", opportunitydesk: "Opportunity Desk", zindi: "Zindi",
   custom: "your list", local: "this browser",
 };
 const MODE_NAMES = { online: "Online", offline: "In person", hybrid: "Hybrid" };

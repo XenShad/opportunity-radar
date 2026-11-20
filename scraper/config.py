@@ -22,6 +22,10 @@ ENABLED_SOURCES = {
     "galaxy": True,
     "nfcore": True,
     "ncbi": True,
+    "embl": True,
+    "ofy": True,
+    "opportunitydesk": True,
+    "zindi": True,
     "biotecnika": True,
 }
 
@@ -120,9 +124,15 @@ GENERAL_FIELD = "general"
 # Hackathons are fetched without a search term (general list, first N pages).
 UNSTOP_HACKATHON_PAGES = 2          # 30 items per page
 UNSTOP_SEARCH_TYPES = ["internships", "competitions", "workshops"]
+# Unstop has very few biology listings (a "bioinformatics" internship search
+# returned 1 result when tested), so the search also covers neighbouring
+# areas such as data science and research. Results are still only kept if
+# they match one of your field keywords.
 UNSTOP_SEARCH_TERMS = [
     "bioinformatics", "computational biology", "biotech", "genomics",
     "biology", "healthcare", "drug discovery", "neuroscience",
+    "life sciences", "research", "data science", "machine learning",
+    "pharma", "medical",
 ]
 
 # TeSS (ELIXIR training portal) keyword searches.
@@ -130,9 +140,24 @@ TESS_QUERIES = [
     "bioinformatics", "computational biology", "single-cell", "genomics",
     "transcriptomics", "multi-omics", "systems biology", "neuroscience",
     "drug discovery", "machine learning", "protein structure",
+    "RNA-seq", "metagenomics", "proteomics", "structural biology",
+    "python", "R programming", "statistics", "data science",
+    "artificial intelligence", "cancer", "immunology", "microbiology",
+    "epidemiology", "imaging", "summer school", "spatial",
 ]
-TESS_PER_QUERY = 25                 # results per query (TeSS max is 100)
-TESS_ONLINE_PAGES = 2               # pages of 100 online events (where webinars are)
+TESS_PER_QUERY = 30                 # results per query (TeSS max is 100)
+TESS_ONLINE_PAGES = 3               # pages of 100 online events (where webinars are)
+
+# Opportunities For Youth and Opportunity Desk post opportunities in every
+# field (policy, journalism, business...). Only posts that match one of your
+# field keywords (other than ML/AI on its own) and look like one of our types
+# are kept. More pages = more history, each page is 10 posts.
+OFY_PAGES = 4
+OPPORTUNITYDESK_FEEDS = {           # category slug -> pages to read
+    "internships": 3,
+    "fellowships": 3,
+    "training": 2,
+}
 
 # Galaxy events about these (non-life-science) topics are skipped.
 GALAXY_SKIP_PATTERN = r"humanities|astronom|astrophysic|climate|earth system|material science"
@@ -181,7 +206,7 @@ INDIA_PLACES = [
 # apply on, so items from them are marked verified=true. Aggregators and news
 # sites (TeSS, Biotecnika) are not. Items in custom.json are always verified.
 VERIFIED_SOURCES = {"mlh", "unstop", "hackerearth", "devfolio", "kaggle", "dream", "embl_ebi",
-                    "galaxy", "nfcore", "ncbi"}
+                    "galaxy", "nfcore", "ncbi", "embl", "zindi"}
 
 # All dates are interpreted in India time (UTC+5:30), see helpers.IST.
 
@@ -205,6 +230,18 @@ MANUAL_SOURCES = [
      "why": "Rounds run on Kaggle"},
     {"name": "IndiaBioscience events & webinars", "url": "https://indiabioscience.org/events",
      "why": "Blocks automated access"},
+    {"name": "AICTE Internship Portal", "url": "https://internship.aicte-india.org/",
+     "why": "Terms forbid automated collection"},
+    {"name": "IASc Lecture Workshops (India)", "url": "https://webjapps.ias.ac.in/SEP/lecture_workshop_futhcoming.jsp",
+     "why": "Page can't be read automatically"},
+    {"name": "NCBS events", "url": "https://www.ncbs.res.in/events",
+     "why": "Anti-bot check"},
+    {"name": "Wellcome Connecting Science courses", "url": "https://coursesandconferences.wellcomeconnectingscience.org/",
+     "why": "Refuses automated connections"},
+    {"name": "ICGEB courses & fellowships", "url": "https://www.icgeb.org/",
+     "why": "Refuses automated connections"},
+    {"name": "Grand Challenge (medical imaging)", "url": "https://grand-challenge.org/challenges/",
+     "why": "robots.txt blocks its API"},
 ]
 
 # ---------------------------------------------------------------------------
