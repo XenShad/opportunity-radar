@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-20T05:46:18+00:00",
-  "total": 203,
+  "last_updated": "2026-11-20T05:49:37+00:00",
+  "total": 202,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -13,7 +13,7 @@
    },
    "hackerearth": {
     "status": "ok",
-    "count": 3
+    "count": 2
    },
    "devfolio": {
     "status": "ok",
@@ -1784,27 +1784,6 @@
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/android-ignition-ganeshi-lal-bajaj-institute-of-technology-and-management-glbitm-greater-noida-1805946",
    "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "564ad779a05b",
-   "title": "Cepheid Intern Hiring Challenge 2026",
-   "organiser": "HackerEarth",
-   "type": "competition",
-   "fields": [
-    "healthcare-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2026-11-27",
-   "end_date": "2026-12-06",
-   "deadline": "2026-12-06",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.hackerearth.com/challenges/competitive/cepheid-hiring-challenge-2026-4/",
-   "source": "hackerearth",
    "date_added": "2026-11-20",
    "verified": true
   },
