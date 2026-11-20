@@ -83,7 +83,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.first_try.outputs.page_url || steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
         with:
@@ -100,5 +100,17 @@ jobs:
         with:
           path: _site
 
+      # GitHub occasionally can't see a just-uploaded artifact for a few
+      # seconds ("No artifacts named github-pages were found"). If the first
+      # deploy fails, wait and try once more instead of failing the run.
+      - id: first_try
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Wait before retrying
+        if: steps.first_try.outcome == 'failure'
+        run: sleep 20
+
       - id: deployment
+        if: steps.first_try.outcome == 'failure'
         uses: actions/deploy-pages@v4
