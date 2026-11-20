@@ -1,0 +1,4 @@
+# Store text files with LF line endings, so the GitHub Actions runner (Linux)
+# and Windows don't produce whole-file diffs of opportunities.json.
+* text=auto eol=lf
+*.svg text eol=lf
