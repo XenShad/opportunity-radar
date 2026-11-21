@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-20T15:32:58+00:00",
-  "total": 372,
+  "last_updated": "2026-11-21T00:01:44+00:00",
+  "total": 365,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -13,11 +13,11 @@
    },
    "hackerearth": {
     "status": "ok",
-    "count": 3
+    "count": 2
    },
    "devfolio": {
     "status": "ok",
-    "count": 20
+    "count": 19
    },
    "kaggle": {
     "status": "skipped",
@@ -31,11 +31,11 @@
    },
    "embl_ebi": {
     "status": "ok",
-    "count": 26
+    "count": 25
    },
    "tess": {
     "status": "ok",
-    "count": 146
+    "count": 143
    },
    "galaxy": {
     "status": "ok",
@@ -168,181 +168,6 @@
  },
  "items": [
   {
-   "id": "3e4edf5abab5",
-   "title": "CODEFESTTHON 2026",
-   "organiser": "",
-   "type": "hackathon",
-   "fields": [
-    "healthcare-ai",
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2026-11-22",
-   "end_date": "2026-11-24",
-   "deadline": "2026-11-20",
-   "stipend_or_prize": "",
-   "eligibility": "Teams of 1–4",
-   "url": "https://codefestthon.devfolio.co/",
-   "source": "devfolio",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "b1be65ffb513",
-   "title": "EB3I - Ecole de Bioinformatique niveau débutant 2026",
-   "organiser": "ABiMS, BiGEst, IFB - ELIXIR-FR, IFB Core, INRAE, INSERM, Pasteur HUB",
-   "type": "workshop",
-   "fields": [
-    "genomics"
-   ],
-   "mode": "offline",
-   "location": "",
-   "region": "International",
-   "start_date": "2026-11-15",
-   "end_date": "2026-11-20",
-   "deadline": null,
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://moodle.france-bioinformatique.fr/course/view.php?id=47",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false
-  },
-  {
-   "id": "41c100cc1f3c",
-   "title": "Genome bioinformatics: from short- to long-read sequencing",
-   "organiser": "European Bioinformatics Institute (EBI)",
-   "type": "workshop",
-   "fields": [
-    "bioinformatics",
-    "genomics",
-    "biotech"
-   ],
-   "mode": "offline",
-   "location": "United Kingdom",
-   "region": "International",
-   "start_date": "2026-11-16",
-   "end_date": "2026-11-20",
-   "deadline": null,
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.ebi.ac.uk/training/events/genome-bioinformatics-2026",
-   "source": "embl_ebi",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "a8130f1daf93",
-   "title": "Global Youth Forum 2027 in Italy: €600 Scholarships Available for Eligible Applicants",
-   "organiser": "",
-   "type": "fellowship",
-   "fields": [
-    "biotech",
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "",
-   "region": "International",
-   "start_date": null,
-   "end_date": null,
-   "deadline": "2026-11-20",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://opportunitiesforyouth.org/2026/11/13/global-youth-forum-2027-in-italy-e600-scholarships-available-for-eligible-applicants/",
-   "source": "ofy",
-   "date_added": "2026-11-20",
-   "verified": false,
-   "notes": "Posted 2026-11-13 on Opportunities For Youth"
-  },
-  {
-   "id": "9b4e4136baa5",
-   "title": "HackKumbh 2026 : Tech For Humanity",
-   "organiser": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
-   "type": "hackathon",
-   "fields": [
-    "healthcare-ai",
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Nagpur, Maharashtra, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-19",
-   "deadline": "2026-11-20",
-   "stipend_or_prize": "₹225,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "abd1c13e3b98",
-   "title": "High Performance Computing: Structure and practice essentials",
-   "organiser": "VIB",
-   "type": "workshop",
-   "fields": [
-    "bioinformatics"
-   ],
-   "mode": "offline",
-   "location": "Zwijnaarde, Belgium",
-   "region": "International",
-   "start_date": "2026-11-20",
-   "end_date": "2026-11-20",
-   "deadline": "2026-11-20",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://training.vib.be/all-trainings/high-performance-computing-structure-and-practice-essentials-0",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false
-  },
-  {
-   "id": "dc6965c8cb00",
-   "title": "Introduction To Bioinformatics Using NGS Data",
-   "organiser": "",
-   "type": "workshop",
-   "fields": [
-    "bioinformatics",
-    "genomics"
-   ],
-   "mode": "offline",
-   "location": "Uppsala, Sweden",
-   "region": "International",
-   "start_date": "2026-11-16",
-   "end_date": "2026-11-20",
-   "deadline": null,
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://uppsala.instructure.com/courses/125576",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false
-  },
-  {
-   "id": "6a498aad0483",
-   "title": "TrueFoundry Forge-a-thon | Techfest, IIT Bombay 2026-27",
-   "organiser": "Indian Institute of Technology (IIT), Bombay",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Mumbai, Maharashtra, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-18",
-   "deadline": "2026-11-20",
-   "stipend_or_prize": "₹245,000 in prizes",
-   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/truefoundry-forge-a-thon-techfest-iit-bombay-2026-27-techfest-iit-bombay-1819296",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "9f26cb8d99da",
    "title": "BostonHacks",
    "organiser": "MLH member event",
@@ -406,29 +231,6 @@
    "verified": true
   },
   {
-   "id": "1cc855479210",
-   "title": "Expanding Horizons 8.0 BIOTECH",
-   "organiser": "Motilal Nehru National Institute of Technology",
-   "type": "hackathon",
-   "fields": [
-    "genomics",
-    "drug-discovery",
-    "biotech"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-11-21",
-   "deadline": "2026-11-21",
-   "stipend_or_prize": "",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/expanding-horizons-80-biotech-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799790",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "a7baf88faaa7",
    "title": "Hack Western 13",
    "organiser": "MLH member event",
@@ -468,6 +270,27 @@
    "url": "https://unstop.com/workshops-webinars/master-data-analytics-with-ai-free-workshop-career-oriented-training-by-quality-thought-in-hyderabad--1817489",
    "source": "unstop",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "5c1b9d70f20b",
+   "title": "PromptWars X AITH Kanpur",
+   "organiser": "Dr. Ambedkar Institute of Technology for Divyangjan",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Kanpur, Uttar Pradesh, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-23",
+   "deadline": "2026-11-21",
+   "stipend_or_prize": "₹10,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/promptwars-x-aith-dr-ambedkar-institute-of-technology-for-divyangjan-1807596",
+   "source": "unstop",
+   "date_added": "2026-11-21",
    "verified": true
   },
   {
@@ -1157,6 +980,28 @@
    "verified": true
   },
   {
+   "id": "9b4e4136baa5",
+   "title": "HackKumbh 2026 : Tech For Humanity",
+   "organiser": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
+   "type": "hackathon",
+   "fields": [
+    "healthcare-ai",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Nagpur, Maharashtra, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-19",
+   "deadline": "2026-11-25",
+   "stipend_or_prize": "₹225,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "c12fd80bbc42",
    "title": "MakerSpark",
    "organiser": "",
@@ -1174,27 +1019,6 @@
    "eligibility": "Teams of 1–4",
    "url": "https://makerspark.devfolio.co/",
    "source": "devfolio",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "910289cd1b40",
-   "title": "National Case Writing Competition",
-   "organiser": "ICFAI Business School (IBS), Hyderabad",
-   "type": "competition",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Hyderabad, Telangana, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2027-01-10",
-   "deadline": "2026-11-25",
-   "stipend_or_prize": "₹50,000 in prizes",
-   "eligibility": "Postgraduate, Management",
-   "url": "https://unstop.com/competitions/national-case-writing-competition-ibs-hyderabad-1797176",
-   "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -2471,6 +2295,27 @@
    "verified": true
   },
   {
+   "id": "b0e9ded9cfa5",
+   "title": "Linux avancé",
+   "organiser": "GenOuest, IRISA",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "RENNES, France",
+   "region": "International",
+   "start_date": "2026-12-04",
+   "end_date": "2026-12-04",
+   "deadline": "2026-12-04",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://framaforms.org/inscription-a-la-formation-genouest-linux-confirme-04122026-1788361737",
+   "source": "tess",
+   "date_added": "2026-11-21",
+   "verified": false
+  },
+  {
    "id": "7ae07f780da1",
    "title": "PromptWars x Quad Bengaluru",
    "organiser": "Quad AI School of Technology & Management",
@@ -2576,27 +2421,6 @@
    "verified": true
   },
   {
-   "id": "564ad779a05b",
-   "title": "Cepheid Intern Hiring Challenge 2026",
-   "organiser": "HackerEarth",
-   "type": "competition",
-   "fields": [
-    "healthcare-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2026-11-27",
-   "end_date": "2026-12-06",
-   "deadline": "2026-12-06",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.hackerearth.com/challenges/competitive/cepheid-hiring-challenge-2026-4/",
-   "source": "hackerearth",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "313d49b556d6",
    "title": "Deep Learning Workshop",
    "organiser": "Indian Institute of Technology (IIT), Bombay",
@@ -2680,6 +2504,27 @@
    "url": "https://www.dtls.nl/?post_type=course&p=21117",
    "source": "tess",
    "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "f189230f7588",
+   "title": "Introduction to High-performance Computing (sciCORE Cluster)",
+   "organiser": "SIB Swiss Institute of Bioinformatics",
+   "type": "webinar",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Streamed, Switzerland",
+   "region": "Online",
+   "start_date": "2026-12-07",
+   "end_date": "2026-12-07",
+   "deadline": "2026-12-07",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.sib.swiss/training/course/20261207_INHPC",
+   "source": "tess",
+   "date_added": "2026-11-21",
    "verified": false
   },
   {
@@ -3243,27 +3088,6 @@
    "verified": true
   },
   {
-   "id": "3c96d1c544f9",
-   "title": "Agri-Tech Hackathon 2027: 24 Hours to Hack the Harvest",
-   "organiser": "K. J. Somaiya College of Engineering (KJSCE), Vidyavihar",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Mumbai, Maharashtra, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2027-01-23",
-   "deadline": "2026-12-15",
-   "stipend_or_prize": "₹350,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/agri-tech-hackathon-2027-24-hours-to-hack-the-harvest-k-j-somaiya-college-of-engineering-kjsce-vidyavihar-1792152",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "2a5fc4ba04fc",
    "title": "Buildfest 2026",
    "organiser": "Learnix Labs",
@@ -3620,6 +3444,27 @@
    "stipend_or_prize": "",
    "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/workshops-webinars/live-webinar-on-ai-ml-with-data-science-26th-november-2026-quality-thought-info-systems-1818997",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "3c96d1c544f9",
+   "title": "Agri-Tech Hackathon 2027: 24 Hours to Hack the Harvest",
+   "organiser": "K. J. Somaiya College of Engineering (KJSCE), Vidyavihar",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Mumbai, Maharashtra, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-01-29",
+   "deadline": "2026-12-27",
+   "stipend_or_prize": "₹350,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/agri-tech-hackathon-2027-24-hours-to-hack-the-harvest-k-j-somaiya-college-of-engineering-kjsce-vidyavihar-1792152",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -4808,27 +4653,6 @@
    "verified": true
   },
   {
-   "id": "b6105891b490",
-   "title": "InnovateHer",
-   "organiser": "MLH member event",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "offline",
-   "location": "West Lafayette, Indiana",
-   "region": "International",
-   "start_date": "2027-02-06",
-   "end_date": "2027-02-08",
-   "deadline": "2027-02-06",
-   "stipend_or_prize": "",
-   "eligibility": "Students (check the event site for age and school rules)",
-   "url": "https://innovateherhacks.org/",
-   "source": "mlh",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "3d890afcaabd",
    "title": "SpartaHack",
    "organiser": "MLH member event",
@@ -4913,6 +4737,27 @@
    "url": "https://diversion2k27.devfolio.co/",
    "source": "devfolio",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "c9faae1f9d20",
+   "title": "InnovateHer",
+   "organiser": "MLH member event",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "offline",
+   "location": "West Lafayette, Indiana",
+   "region": "International",
+   "start_date": "2027-02-13",
+   "end_date": "2027-02-15",
+   "deadline": "2027-02-13",
+   "stipend_or_prize": "",
+   "eligibility": "Students (check the event site for age and school rules)",
+   "url": "https://innovateherhacks.org/",
+   "source": "mlh",
+   "date_added": "2026-11-21",
    "verified": true
   },
   {
