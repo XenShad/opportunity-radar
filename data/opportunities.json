@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-21T00:01:44+00:00",
-  "total": 365,
+  "last_updated": "2026-11-21T07:14:38+00:00",
+  "total": 366,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -9,7 +9,7 @@
    },
    "unstop": {
     "status": "ok",
-    "count": 101
+    "count": 98
    },
    "hackerearth": {
     "status": "ok",
@@ -35,7 +35,7 @@
    },
    "tess": {
     "status": "ok",
-    "count": 143
+    "count": 147
    },
    "galaxy": {
     "status": "ok",
@@ -189,27 +189,6 @@
    "verified": true
   },
   {
-   "id": "f9dc602a498b",
-   "title": "Data Science with AIML Workshop, Ameerpet Hyderabad",
-   "organiser": "RaiseTech",
-   "type": "workshop",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Hyderabad, Telangana, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-21",
-   "deadline": "2026-11-21",
-   "stipend_or_prize": "",
-   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/workshops-webinars/data-science-with-aiml-workshop-ameerpet-hyderabad-raisetech-1817766",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "6b8fcccfdb70",
    "title": "DevNexus 2.0",
    "organiser": "",
@@ -252,27 +231,6 @@
    "verified": true
   },
   {
-   "id": "0df8ad85fdd9",
-   "title": "Master Data Analytics with AI – Free Workshop & Career-Oriented Training by Quality Thought in Hyderabad",
-   "organiser": "Quality Thought",
-   "type": "workshop",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Hyderabad, Telangana, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-21",
-   "deadline": "2026-11-21",
-   "stipend_or_prize": "",
-   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/workshops-webinars/master-data-analytics-with-ai-free-workshop-career-oriented-training-by-quality-thought-in-hyderabad--1817489",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "5c1b9d70f20b",
    "title": "PromptWars X AITH Kanpur",
    "organiser": "Dr. Ambedkar Institute of Technology for Divyangjan",
@@ -291,27 +249,6 @@
    "url": "https://unstop.com/hackathons/promptwars-x-aith-dr-ambedkar-institute-of-technology-for-divyangjan-1807596",
    "source": "unstop",
    "date_added": "2026-11-21",
-   "verified": true
-  },
-  {
-   "id": "09217640441a",
-   "title": "Quality Thought Data Science Workshop 2026 – Python, AI, Machine Learning & Generative AI Training in Hyderabad",
-   "organiser": "Quality Thought",
-   "type": "workshop",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Hyderabad, Telangana, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-21",
-   "deadline": "2026-11-21",
-   "stipend_or_prize": "",
-   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/workshops-webinars/quality-thought-data-science-workshop-2026-python-ai-machine-learning-generative-ai-training-in-hyder-1817507",
-   "source": "unstop",
-   "date_added": "2026-11-20",
    "verified": true
   },
   {
@@ -394,27 +331,6 @@
    "stipend_or_prize": "₹1,000–₹15,000/month stipend",
    "eligibility": "All",
    "url": "https://unstop.com/internships/data-science-internship-opal-code-1801847",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "3ac19dad6e6b",
-   "title": "Data Sprint Challenge 2.0",
-   "organiser": "The National Institute of Engineering, Karnataka",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-11-22",
-   "deadline": "2026-11-22",
-   "stipend_or_prize": "Certificates",
-   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/data-sprint-20-anveshan-nie-1807080",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -656,6 +572,27 @@
    "verified": true
   },
   {
+   "id": "3ac19dad6e6b",
+   "title": "Data Sprint Challenge 2.0",
+   "organiser": "The National Institute of Engineering, Karnataka",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-23",
+   "deadline": "2026-11-23",
+   "stipend_or_prize": "Certificates",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/data-sprint-20-anveshan-nie-1807080",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
    "id": "00d1b6b3ceba",
    "title": "ELIXIR-GOBLET Train-the-Trainer",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -740,27 +677,6 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
-  },
-  {
-   "id": "eb1b543decf1",
-   "title": "SustainIQ",
-   "organiser": "Vidyavardhaka College of Engineering, Mysore",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Mysuru, Karnataka, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-04",
-   "deadline": "2026-11-23",
-   "stipend_or_prize": "₹60,000 in prizes",
-   "eligibility": "Engineering Students, Undergraduate",
-   "url": "https://unstop.com/hackathons/sustainiq-vidyavardhaka-college-of-engineering-mysore-1814270",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
   },
   {
    "id": "6e75be2f706f",
@@ -976,28 +892,6 @@
    "eligibility": "Teams of 3–5",
    "url": "https://founders-house-kolkata.devfolio.co/",
    "source": "devfolio",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "9b4e4136baa5",
-   "title": "HackKumbh 2026 : Tech For Humanity",
-   "organiser": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
-   "type": "hackathon",
-   "fields": [
-    "healthcare-ai",
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Nagpur, Maharashtra, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-19",
-   "deadline": "2026-11-25",
-   "stipend_or_prize": "₹225,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629",
-   "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -1342,6 +1236,48 @@
    "url": "https://unstop.com/workshops-webinars/learn-think-leverage-building-your-career-in-the-ai-era-techbairn-research-1808022",
    "source": "unstop",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "eb1b543decf1",
+   "title": "SustainIQ",
+   "organiser": "Vidyavardhaka College of Engineering, Mysore",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Mysuru, Karnataka, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-04",
+   "deadline": "2026-11-27",
+   "stipend_or_prize": "₹60,000 in prizes",
+   "eligibility": "Engineering Students, Undergraduate",
+   "url": "https://unstop.com/hackathons/sustainiq-vidyavardhaka-college-of-engineering-mysore-1814270",
+   "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "15b5eb72a640",
+   "title": "ThinCovation 2026",
+   "organiser": "Management Development Institute (MDI), Gurgaon",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-15",
+   "deadline": "2026-11-27",
+   "stipend_or_prize": "₹100,000 in prizes",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/thincovation-2026-thincovation-2026-mdi-1821962",
+   "source": "unstop",
+   "date_added": "2026-11-21",
    "verified": true
   },
   {
@@ -4803,6 +4739,27 @@
    "verified": true
   },
   {
+   "id": "27e5e67c89a0",
+   "title": "Agentic Software development with Claude Code",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Leuven, Belgium",
+   "region": "International",
+   "start_date": "2027-02-15",
+   "end_date": "2027-02-15",
+   "deadline": "2027-02-15",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/agentic-software-development-claude-code-0",
+   "source": "tess",
+   "date_added": "2026-11-21",
+   "verified": false
+  },
+  {
    "id": "14592ab6346e",
    "title": "AMD Global Physical AI Behavioral Safety Challenge",
    "organiser": "Zindi",
@@ -5757,6 +5714,30 @@
    "verified": false
   },
   {
+   "id": "51db00a0a2ba",
+   "title": "Bulk RNA-seq analysis",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "genomics",
+    "transcriptomics",
+    "multi-omics",
+    "biotech"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-04-21",
+   "end_date": "2027-04-26",
+   "deadline": "2027-04-21",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/bulk-rna-seq-analysis-1",
+   "source": "tess",
+   "date_added": "2026-11-21",
+   "verified": false
+  },
+  {
    "id": "aaab2275e2d8",
    "title": "Research Data Management (RDM) in life sciences: Essentials",
    "organiser": "VIB",
@@ -5975,6 +5956,27 @@
    "url": "https://www.sib.swiss/training/course/20270503_LONGR",
    "source": "tess",
    "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "71b5b82e4992",
+   "title": "Agentic Software development with Claude Code",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-05-05",
+   "end_date": "2027-05-05",
+   "deadline": "2027-05-05",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/agentic-software-development-claude-code",
+   "source": "tess",
+   "date_added": "2026-11-21",
    "verified": false
   },
   {
@@ -6305,6 +6307,27 @@
    "source": "embl_ebi",
    "date_added": "2026-11-20",
    "verified": true
+  },
+  {
+   "id": "f54bb0936162",
+   "title": "Machine learning and deep learning fundamentals",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Zwijnaarde, Belgium",
+   "region": "International",
+   "start_date": "2027-06-01",
+   "end_date": "2027-06-02",
+   "deadline": "2027-06-01",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/machine-learning-and-deep-learning-fundamentals-1",
+   "source": "tess",
+   "date_added": "2026-11-21",
+   "verified": false
   },
   {
    "id": "b58eb34f454f",
