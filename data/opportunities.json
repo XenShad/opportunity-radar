@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-22T19:44:14+00:00",
-  "total": 366,
+  "last_updated": "2026-11-23T07:43:41+00:00",
+  "total": 363,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -9,7 +9,7 @@
    },
    "unstop": {
     "status": "ok",
-    "count": 94
+    "count": 95
    },
    "hackerearth": {
     "status": "ok",
@@ -17,7 +17,7 @@
    },
    "devfolio": {
     "status": "ok",
-    "count": 22
+    "count": 21
    },
    "kaggle": {
     "status": "skipped",
@@ -35,7 +35,7 @@
    },
    "tess": {
     "status": "ok",
-    "count": 147
+    "count": 142
    },
    "galaxy": {
     "status": "ok",
@@ -191,6 +191,27 @@
    "notes": "Cost: Charge"
   },
   {
+   "id": "f5221666c675",
+   "title": "Buildathon: AI Hackathon",
+   "organiser": "Dr MGR Institute of Education and Research Institute",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Chennai, Tamil Nadu, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-24",
+   "deadline": "2026-11-23",
+   "stipend_or_prize": "₹13,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/buildathon-ai-hackathon-dr-mgr-institute-of-education-and-research-institute-1815227",
+   "source": "unstop",
+   "date_added": "2026-11-23",
+   "verified": true
+  },
+  {
    "id": "d422f37a92a3",
    "title": "Ciencia FAIR: manejo de datos, metadatos e inteligencia artificial en las ciencias de la vida",
    "organiser": "ELIXIR, CCG-UNAM",
@@ -213,27 +234,6 @@
    "date_added": "2026-11-20",
    "verified": false,
    "notes": "Cost: Free"
-  },
-  {
-   "id": "b30a663bfb63",
-   "title": "Code N Mod",
-   "organiser": "",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "offline",
-   "location": "Siddaganga Institute Of Technology, Chandana Complex, Tumakur, Karnataka, India",
-   "region": "India",
-   "start_date": "2026-11-23",
-   "end_date": "2026-11-23",
-   "deadline": "2026-11-23",
-   "stipend_or_prize": "",
-   "eligibility": "Teams of 1–6",
-   "url": "https://codenmod.devfolio.co/",
-   "source": "devfolio",
-   "date_added": "2026-11-20",
-   "verified": true
   },
   {
    "id": "15f472770e72",
@@ -755,24 +755,24 @@
    "verified": false
   },
   {
-   "id": "c7b4cd5cd92e",
-   "title": "Configure 2026: A Mobility Hackathon",
-   "organiser": "Zeliot Pvt Ltd",
-   "type": "hackathon",
+   "id": "e033a5742205",
+   "title": "Data Science Training Workshop",
+   "organiser": "Quality Thought",
+   "type": "workshop",
    "fields": [
-    "general"
+    "ml-ai"
    ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
+   "mode": "offline",
+   "location": "Hyderabad, Telangana, India",
+   "region": "India",
    "start_date": null,
    "end_date": "2026-11-26",
    "deadline": "2026-11-26",
-   "stipend_or_prize": "₹300,000 in prizes",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/configure-2026-a-mobility-hackathon-zeliot-pvt-ltd-1811085",
+   "stipend_or_prize": "",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/workshops-webinars/data-science-training-workshop-quality-thought-1824242",
    "source": "unstop",
-   "date_added": "2026-11-20",
+   "date_added": "2026-11-23",
    "verified": true
   },
   {
@@ -920,27 +920,6 @@
    "stipend_or_prize": "",
    "eligibility": "All",
    "url": "https://unstop.com/workshops-webinars/beyond-software-development-exploring-higher-studies-and-research-in-aiml-techbairn-research-1808042",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "15385628546e",
-   "title": "CODERED'26",
-   "organiser": "BMS Insitute of Technology and Management",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "offline",
-   "location": "Yelahanka, Karnataka, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-29",
-   "deadline": "2026-11-27",
-   "stipend_or_prize": "₹230,000 in prizes",
-   "eligibility": "Engineering Students, Undergraduate",
-   "url": "https://unstop.com/hackathons/codered26-bms-insitute-of-technology-and-management-1810268",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -1497,27 +1476,6 @@
    "verified": true
   },
   {
-   "id": "085275a34f07",
-   "title": "Hackignite 1.0 – 24 Hours National Level Hackathon",
-   "organiser": "Jain College of Engineering & Technology, Hubballi",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "offline",
-   "location": "Hubballi, Karnataka, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-30",
-   "deadline": "2026-11-30",
-   "stipend_or_prize": "",
-   "eligibility": "Engineering Students, Undergraduate, Management, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/hackignite-10-24-hours-national-level-hackathon-jain-college-of-engineering-technology-hubballi-1801378",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "2d513a432a55",
    "title": "Health Hackathon 3.0",
    "organiser": "",
@@ -1536,6 +1494,27 @@
    "url": "https://health-hackathon.devfolio.co/",
    "source": "devfolio",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "7299f04fa8df",
+   "title": "Ideathon: Idea to Prototyping Challenge",
+   "organiser": "Indian Institute of Technology (IIT), Bombay",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Mumbai, Maharashtra, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-11-30",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/ideathon-idea-to-prototyping-challenge-iit-bombay-1823841",
+   "source": "unstop",
+   "date_added": "2026-11-23",
    "verified": true
   },
   {
@@ -2047,6 +2026,27 @@
    "verified": true
   },
   {
+   "id": "eb6e4fae97aa",
+   "title": "KITE Winter Innovation Expedition – National-Level Innovation Challenge",
+   "organiser": "K.S. Rangasamy College Of Technology (KSRCT), Namakkal",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "offline",
+   "location": "Tiruchengode, Tamil Nadu, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-12",
+   "deadline": "2026-12-04",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/kite-winter-innovation-expedition-national-level-innovation-challenge-ks-rangasamy-college-of-technology-ksrc-1820425",
+   "source": "unstop",
+   "date_added": "2026-11-23",
+   "verified": true
+  },
+  {
    "id": "b0e9ded9cfa5",
    "title": "Linux avancé",
    "organiser": "GenOuest, IRISA",
@@ -2300,6 +2300,27 @@
    "verified": false
   },
   {
+   "id": "4b8b6b9ca29b",
+   "title": "CodeEncoders India 2026 — National Hackathon",
+   "organiser": "WeCodeCoders",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-09",
+   "deadline": "2026-12-07",
+   "stipend_or_prize": "Certificates",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/codeencoders-india-2026-national-hackathon-wecodecoders-1823739",
+   "source": "unstop",
+   "date_added": "2026-11-23",
+   "verified": true
+  },
+  {
    "id": "2586e33458ec",
    "title": "Dynamic Modeling in Systems Biology (2026)",
    "organiser": "",
@@ -2448,28 +2469,6 @@
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
-  },
-  {
-   "id": "d947fba4c93c",
-   "title": "Statistics with R",
-   "organiser": "Hub for Applied Bioinformatics",
-   "type": "workshop",
-   "fields": [
-    "biotech"
-   ],
-   "mode": "offline",
-   "location": "London",
-   "region": "International",
-   "start_date": "2026-12-08",
-   "end_date": "2026-12-08",
-   "deadline": "2026-12-08",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/part-2-statistics-with-r-december-2026",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false,
-   "notes": "Cost: Charge"
   },
   {
    "id": "cb0addd301ca",
@@ -3138,27 +3137,6 @@
    "verified": true
   },
   {
-   "id": "ef355b9ac686",
-   "title": "Codathon | #1 Global Coding Contest",
-   "organiser": "Indian Institute of Technology (IIT), Bombay",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2027-01-09",
-   "deadline": "2026-12-19",
-   "stipend_or_prize": "₹30,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, School Students, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/codathon-1-global-coding-contest-iit-bombay-1811016",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "8746921cfa12",
    "title": "AWS Winter League 2026",
    "organiser": "Rajiv Gandhi University of Knowledge Technologies (RGUKT), Nuzvid",
@@ -3709,28 +3687,6 @@
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
-  },
-  {
-   "id": "94e60588cd0f",
-   "title": "An Introduction to High Performance Computing for Biologists Using CREATE",
-   "organiser": "Hub for Applied Bioinformatics",
-   "type": "workshop",
-   "fields": [
-    "healthcare-ai"
-   ],
-   "mode": "offline",
-   "location": "London",
-   "region": "International",
-   "start_date": "2027-01-12",
-   "end_date": "2027-01-12",
-   "deadline": "2027-01-12",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/an-introduction-to-high-performance-computing-for-biologists-using-create-january-2027",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false,
-   "notes": "Cost: Charge"
   },
   {
    "id": "d46ae6ddb29b",
@@ -4997,6 +4953,48 @@
    "verified": false
   },
   {
+   "id": "7fc51847965c",
+   "title": "HackIllinois",
+   "organiser": "MLH member event",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "offline",
+   "location": "Urbana, Illinois",
+   "region": "International",
+   "start_date": "2027-02-26",
+   "end_date": "2027-03-01",
+   "deadline": "2027-02-26",
+   "stipend_or_prize": "",
+   "eligibility": "Students (check the event site for age and school rules)",
+   "url": "https://www.hackillinois.org/",
+   "source": "mlh",
+   "date_added": "2026-11-23",
+   "verified": true
+  },
+  {
+   "id": "99d080961b33",
+   "title": "Hacklytics 2027",
+   "organiser": "MLH member event",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "offline",
+   "location": "Atlanta, GA",
+   "region": "International",
+   "start_date": "2027-02-26",
+   "end_date": "2027-03-01",
+   "deadline": "2027-02-26",
+   "stipend_or_prize": "",
+   "eligibility": "Students (check the event site for age and school rules)",
+   "url": "https://hacklytics2027.web.app/",
+   "source": "mlh",
+   "date_added": "2026-11-23",
+   "verified": true
+  },
+  {
    "id": "0b06e3689551",
    "title": "NGS: Bulk RNA-Seq",
    "organiser": "Hub for Applied Bioinformatics",
@@ -5504,29 +5502,6 @@
    "verified": true
   },
   {
-   "id": "a39e5fcbf65b",
-   "title": "Python Programming",
-   "organiser": "Hub for Applied Bioinformatics",
-   "type": "workshop",
-   "fields": [
-    "healthcare-ai",
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "London",
-   "region": "International",
-   "start_date": "2027-04-08",
-   "end_date": "2027-04-08",
-   "deadline": "2027-04-08",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://estore.kcl.ac.uk/conferences-and-events/academic-faculties/faculty-of-life-sciences-medicine/school-of-basic-and-medical-biosciences/centre-for-gene-therapy-regenerative-medicine/part-2-python-programming",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false,
-   "notes": "Cost: Charge"
-  },
-  {
    "id": "4d33ca0bf438",
    "title": "R Introduction",
    "organiser": "VIB",
@@ -5696,27 +5671,6 @@
    "stipend_or_prize": "",
    "eligibility": "",
    "url": "https://www.sib.swiss/training/course/20270416_CSMMO",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false
-  },
-  {
-   "id": "4c72a734be9c",
-   "title": "Advanced Statistics: Statistical Modelling",
-   "organiser": "SIB Swiss Institute of Bioinformatics",
-   "type": "workshop",
-   "fields": [
-    "biotech"
-   ],
-   "mode": "offline",
-   "location": "Lausanne, Switzerland",
-   "region": "International",
-   "start_date": "2027-04-19",
-   "end_date": "2027-04-21",
-   "deadline": "2027-04-19",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.sib.swiss/training/course/20270419_ADDMG",
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
@@ -5985,29 +5939,6 @@
    "url": "https://training.vib.be/all-trainings/agentic-software-development-claude-code",
    "source": "tess",
    "date_added": "2026-11-21",
-   "verified": false
-  },
-  {
-   "id": "4ccbcacdedb7",
-   "title": "Statistics and Machine Learning for Life Sciences",
-   "organiser": "SIB Swiss Institute of Bioinformatics",
-   "type": "workshop",
-   "fields": [
-    "bioinformatics",
-    "biotech",
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Streamed, Switzerland",
-   "region": "Online",
-   "start_date": "2027-05-10",
-   "end_date": "2027-05-11",
-   "deadline": "2027-05-10",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.sib.swiss/training/course/20270510_STAML",
-   "source": "tess",
-   "date_added": "2026-11-20",
    "verified": false
   },
   {
