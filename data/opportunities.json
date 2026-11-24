@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-23T23:57:32+00:00",
-  "total": 357,
+  "last_updated": "2026-11-24T09:58:53+00:00",
+  "total": 359,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -17,7 +17,7 @@
    },
    "devfolio": {
     "status": "ok",
-    "count": 20
+    "count": 21
    },
    "kaggle": {
     "status": "skipped",
@@ -43,7 +43,7 @@
    },
    "nfcore": {
     "status": "ok",
-    "count": 2
+    "count": 3
    },
    "ncbi": {
     "status": "ok",
@@ -926,6 +926,27 @@
    "verified": true
   },
   {
+   "id": "d3f8cd989891",
+   "title": "ABHYUDAYA 2026",
+   "organiser": "",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "offline",
+   "location": "Govt Engineering College, Challakere Rural, Karnataka, India",
+   "region": "India",
+   "start_date": "2026-12-05",
+   "end_date": "2026-12-05",
+   "deadline": "2026-11-30",
+   "stipend_or_prize": "",
+   "eligibility": "Teams of 3–4",
+   "url": "https://abhyudaya.devfolio.co/",
+   "source": "devfolio",
+   "date_added": "2026-11-24",
+   "verified": true
+  },
+  {
    "id": "32160a51cd13",
    "title": "Anveshak: Open-World Object Detection for Remote Sensing",
    "organiser": "Indian Institute of Technology (IIT), Bombay",
@@ -1417,7 +1438,7 @@
   },
   {
    "id": "1a4b42f8e17a",
-   "title": "Protothon 2K26",
+   "title": "Protothon 2k26",
    "organiser": "Hindustan Institute of Technology and Science (HITS), Chennai",
    "type": "hackathon",
    "fields": [
@@ -1723,27 +1744,6 @@
    "stipend_or_prize": "",
    "eligibility": "Postgraduate, Undergraduate, Fresher, Management, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/internships/ai-assisted-multilingual-cultural-research-content-internship-aanvay-1820269",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "65f7561c20ed",
-   "title": "Artificial Intelligence and Machine Learning Internship",
-   "organiser": "Webmobril Technologies",
-   "type": "internship",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Noida, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-04",
-   "deadline": "2026-12-04",
-   "stipend_or_prize": "",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher",
-   "url": "https://unstop.com/internships/artificial-intelligence-and-machine-learning-internship-webmobril-technologies-1820711",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -2129,6 +2129,27 @@
    "verified": true
   },
   {
+   "id": "e36310802e1d",
+   "title": "BlackPanda Labs CTF 2026 | Free International Cybersecurity Competition",
+   "organiser": "blackpandalabs",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-08",
+   "deadline": "2026-12-08",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/blackpanda-labs-ctf-2026-free-international-cybersecurity-competition-blackpandalabs-1825506",
+   "source": "unstop",
+   "date_added": "2026-11-24",
+   "verified": true
+  },
+  {
    "id": "82a0331a0688",
    "title": "Introduction to Spatial Transcriptomics Data Analysis",
    "organiser": "SIB Swiss Institute of Bioinformatics",
@@ -2212,6 +2233,27 @@
    "url": "https://unstop.com/hackathons/rack-it-up-2026-48-hour-online-hackathon-by-rackem-karma-enterprises-1777639",
    "source": "unstop",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "1c0137e8ccc6",
+   "title": "Robotics & Humanoid AI Research Associate",
+   "organiser": "World Trade Factory",
+   "type": "internship",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-08",
+   "deadline": "2026-12-08",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher",
+   "url": "https://unstop.com/internships/robotics-humanoid-ai-research-associate-world-trade-factory-1825540",
+   "source": "unstop",
+   "date_added": "2026-11-24",
    "verified": true
   },
   {
@@ -2330,7 +2372,7 @@
    "organiser": "Indian Institute of Technology (IIT), Madras",
    "type": "hackathon",
    "fields": [
-    "ml-ai"
+    "general"
    ],
    "mode": "offline",
    "location": "Chennai, Tamil Nadu, India",
@@ -2341,27 +2383,6 @@
    "stipend_or_prize": "₹50,000 in prizes",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/cpp-competitive-programming-potpourri-shaastra-2027-iit-madras-1782995",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "e4308555f226",
-   "title": "CTF Cicada 2026",
-   "organiser": "Birla Institute of Technology, Mesra, Ranchi",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-12-10",
-   "deadline": "2026-12-10",
-   "stipend_or_prize": "",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher",
-   "url": "https://unstop.com/hackathons/ctf-cicada-2026-birla-institute-of-technology-mesra-ranchi-1814002",
    "source": "unstop",
    "date_added": "2026-11-20",
    "verified": true
@@ -2432,8 +2453,8 @@
    "verified": true
   },
   {
-   "id": "f35ec73fef13",
-   "title": "Mogoj Dholai",
+   "id": "fef3dfa4cf38",
+   "title": "Mogoj Dholai (CP contest)",
    "organiser": "Department of Information Technology, Jadavpur University",
    "type": "hackathon",
    "fields": [
@@ -2443,13 +2464,13 @@
    "location": "Kolkata, West Bengal, India",
    "region": "India",
    "start_date": null,
-   "end_date": "2026-12-20",
+   "end_date": "2026-12-19",
    "deadline": "2026-12-10",
    "stipend_or_prize": "₹6,000 in prizes",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/mogoj-dholai-kernel-10-department-of-information-technology-jadavpur-university-1822588",
    "source": "unstop",
-   "date_added": "2026-11-22",
+   "date_added": "2026-11-24",
    "verified": true
   },
   {
@@ -2478,8 +2499,8 @@
    "verified": false
   },
   {
-   "id": "8e8ffc631b80",
-   "title": "Data Nilaam",
+   "id": "3a3fbd53fa16",
+   "title": "Data Nilaam (ML Event)",
    "organiser": "Department of Information Technology, Jadavpur University",
    "type": "hackathon",
    "fields": [
@@ -2495,7 +2516,7 @@
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/data-nilaam-kernel-10-department-of-information-technology-jadavpur-university-1822546",
    "source": "unstop",
-   "date_added": "2026-11-22",
+   "date_added": "2026-11-24",
    "verified": true
   },
   {
@@ -2594,9 +2615,9 @@
    "location": "Online",
    "region": "Online",
    "start_date": null,
-   "end_date": "2026-12-11",
+   "end_date": "2026-12-26",
    "deadline": "2026-12-11",
-   "stipend_or_prize": "",
+   "stipend_or_prize": "₹120,000 in prizes",
    "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/india-ai-open-2026-free-ai-talent-contest-for-students-and-engineers-acciojob-1820502",
    "source": "unstop",
@@ -2622,27 +2643,6 @@
    "url": "https://unstop.com/competitions/insight-edge-the-economics-competition-iris-2027-iim-indores-flagship-fest-iim-indore-1825373",
    "source": "unstop",
    "date_added": "2026-11-24",
-   "verified": true
-  },
-  {
-   "id": "74a43ce09e59",
-   "title": "Code Relay 5.0",
-   "organiser": "Indian Institute of Technology (IIT), Bhubaneswar",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "offline",
-   "location": "Bhubaneswar, Odisha, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2027-01-17",
-   "deadline": "2026-12-12",
-   "stipend_or_prize": "₹310,000 in prizes",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/code-relay-50-indian-institute-of-technology-iit-bhubaneswar-1810370",
-   "source": "unstop",
-   "date_added": "2026-11-20",
    "verified": true
   },
   {
@@ -3152,6 +3152,27 @@
    "url": "https://unstop.com/workshops-webinars/free-live-webinar-on-full-stack-python-with-gen-ai-24-november-2026-quality-thought-info-systems-1817413",
    "source": "unstop",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "ff13065b09e1",
+   "title": "OpenVerse '26",
+   "organiser": "Campus Code",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2027-01-01",
+   "deadline": "2026-12-24",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/openverse-26-campus-code-1821473",
+   "source": "unstop",
+   "date_added": "2026-11-24",
    "verified": true
   },
   {
@@ -5139,6 +5160,27 @@
    "url": "https://nf-co.re/events/2027/hackathon-march-2027/",
    "source": "nfcore",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "7a81290b843d",
+   "title": "Hackathon - March 2027 (Stockholm)",
+   "organiser": "nf-core community",
+   "type": "hackathon",
+   "fields": [
+    "bioinformatics"
+   ],
+   "mode": "offline",
+   "location": "",
+   "region": "International",
+   "start_date": "2027-03-15",
+   "end_date": null,
+   "deadline": "2027-03-15",
+   "stipend_or_prize": "",
+   "eligibility": "Open to everyone",
+   "url": "https://nf-co.re/events/2027/hackathon-march-2027/stockholm/",
+   "source": "nfcore",
+   "date_added": "2026-11-24",
    "verified": true
   },
   {
