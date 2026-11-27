@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-27T08:39:18+00:00",
-  "total": 356,
+  "last_updated": "2026-11-27T21:21:02+00:00",
+  "total": 358,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -9,7 +9,7 @@
    },
    "unstop": {
     "status": "ok",
-    "count": 97
+    "count": 101
    },
    "hackerearth": {
     "status": "ok",
@@ -17,7 +17,7 @@
    },
    "devfolio": {
     "status": "ok",
-    "count": 22
+    "count": 23
    },
    "kaggle": {
     "status": "skipped",
@@ -35,7 +35,7 @@
    },
    "tess": {
     "status": "ok",
-    "count": 135
+    "count": 131
    },
    "galaxy": {
     "status": "ok",
@@ -51,7 +51,7 @@
    },
    "embl": {
     "status": "ok",
-    "count": 61
+    "count": 63
    },
    "ofy": {
     "status": "ok",
@@ -168,99 +168,6 @@
  },
  "items": [
   {
-   "id": "d422f37a92a3",
-   "title": "Ciencia FAIR: manejo de datos, metadatos e inteligencia artificial en las ciencias de la vida",
-   "organiser": "ELIXIR, CCG-UNAM",
-   "type": "workshop",
-   "fields": [
-    "bioinformatics",
-    "healthcare-ai",
-    "biotech"
-   ],
-   "mode": "offline",
-   "location": "Cuernavaca, Mexico",
-   "region": "International",
-   "start_date": "2026-11-23",
-   "end_date": "2026-11-27",
-   "deadline": null,
-   "stipend_or_prize": "",
-   "eligibility": "Students, Scientific community, Investigators and researchers working in all areas of the life sciences., Developers",
-   "url": "https://laboratorio-de-biologia-computacional.github.io/taller-elixir-mexico-2026/",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false,
-   "notes": "Cost: Free"
-  },
-  {
-   "id": "b1b33012927a",
-   "title": "Enrichment Analysis",
-   "organiser": "SIB Swiss Institute of Bioinformatics",
-   "type": "webinar",
-   "fields": [
-    "bioinformatics",
-    "genomics",
-    "transcriptomics",
-    "biotech"
-   ],
-   "mode": "online",
-   "location": "Streamed, Switzerland",
-   "region": "Online",
-   "start_date": "2026-11-27",
-   "end_date": "2026-11-27",
-   "deadline": "2026-11-27",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.sib.swiss/training/course/20261127_ENRIC",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false
-  },
-  {
-   "id": "2b710b356b9d",
-   "title": "Integrating multi-omics data using MOFA2",
-   "organiser": "VIB",
-   "type": "workshop",
-   "fields": [
-    "single-cell",
-    "multi-omics"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2026-11-26",
-   "end_date": "2026-11-27",
-   "deadline": null,
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://training.vib.be/all-trainings/integrating-multi-omics-data-using-mofa2-0",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false
-  },
-  {
-   "id": "5f8480aed464",
-   "title": "M4i Mass Spectrometry Imaging Workshop",
-   "organiser": "Maastricht MultiModal Molecular Imaging Institute",
-   "type": "workshop",
-   "fields": [
-    "multi-omics",
-    "drug-discovery"
-   ],
-   "mode": "offline",
-   "location": "Maastricht, Netherlands",
-   "region": "International",
-   "start_date": "2026-11-23",
-   "end_date": "2026-11-27",
-   "deadline": null,
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.maastrichtuniversity.nl/events/m4i-mass-spectrometry-imaging-workshop",
-   "source": "tess",
-   "date_added": "2026-11-20",
-   "verified": false,
-   "notes": "Cost: Charge"
-  },
-  {
    "id": "dbc2f450d827",
    "title": "A Free Hands-on Data Science Workshop",
    "organiser": "RaiseTech",
@@ -324,8 +231,8 @@
    "verified": true
   },
   {
-   "id": "0ef699afafbb",
-   "title": "CodeHive Rivalry Night",
+   "id": "096508024a2b",
+   "title": "CodeHive Coding Night",
    "organiser": "Code Hive",
    "type": "hackathon",
    "fields": [
@@ -341,28 +248,28 @@
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/codehive-rivalry-night-code-hive-1830429",
    "source": "unstop",
-   "date_added": "2026-11-27",
+   "date_added": "2026-11-28",
    "verified": true
   },
   {
-   "id": "a88ed60528cc",
-   "title": "Divergent Merch Design Challenge",
-   "organiser": "Divergent Classes",
-   "type": "hackathon",
+   "id": "943228280f0b",
+   "title": "Data Analyst + AI Workshop: Build Insights That Drive Business Decisions",
+   "organiser": "RaiseTech",
+   "type": "workshop",
    "fields": [
-    "general"
+    "ml-ai"
    ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
+   "mode": "offline",
+   "location": "Hyderabad, Telangana, India",
+   "region": "India",
    "start_date": null,
    "end_date": "2026-11-28",
    "deadline": "2026-11-28",
-   "stipend_or_prize": "₹3,500 in prizes",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/divergent-merch-design-challenge-divergent-classes-1814036",
+   "stipend_or_prize": "",
+   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/workshops-webinars/beyond-dashboards-ai-driven-business-intelligence-decision-making-raisetech-1826437",
    "source": "unstop",
-   "date_added": "2026-11-25",
+   "date_added": "2026-11-28",
    "verified": true
   },
   {
@@ -429,27 +336,6 @@
    "verified": true
   },
   {
-   "id": "15b5eb72a640",
-   "title": "ThinCovation 2026",
-   "organiser": "Management Development Institute (MDI), Gurgaon",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-12-15",
-   "deadline": "2026-11-28",
-   "stipend_or_prize": "₹100,000 in prizes",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/thincovation-2026-thincovation-2026-mdi-1821962",
-   "source": "unstop",
-   "date_added": "2026-11-21",
-   "verified": true
-  },
-  {
    "id": "67afe63c91a2",
    "title": "Bioinformatics Internship",
    "organiser": "Xenoibiotech Pvt. Ltd.",
@@ -491,27 +377,6 @@
    "url": "https://abhyudaya.devfolio.co/",
    "source": "devfolio",
    "date_added": "2026-11-24",
-   "verified": true
-  },
-  {
-   "id": "32160a51cd13",
-   "title": "Anveshak: Open-World Object Detection for Remote Sensing",
-   "organiser": "Indian Institute of Technology (IIT), Bombay",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Powai, Maharashtra, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-30",
-   "deadline": "2026-11-30",
-   "stipend_or_prize": "₹150,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/anveshak-open-world-object-detection-for-remote-sensing-iit-bombay-1818894",
-   "source": "unstop",
-   "date_added": "2026-11-20",
    "verified": true
   },
   {
@@ -562,7 +427,8 @@
    "organiser": "European Bioinformatics Institute (EBI)",
    "type": "workshop",
    "fields": [
-    "ml-ai"
+    "ml-ai",
+    "biotech"
    ],
    "mode": "online",
    "location": "Online",
@@ -659,27 +525,6 @@
    "url": "https://unstop.com/workshops-webinars/build-your-future-with-artificial-intelligence-sattix-ai-1819236",
    "source": "unstop",
    "date_added": "2026-11-25",
-   "verified": true
-  },
-  {
-   "id": "96848fe8e16f",
-   "title": "Designathon - A Five-Track, Code & Report Design Challenge",
-   "organiser": "Shri Mata Vaishno Devi University (SMVDU), Katra",
-   "type": "competition",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Katra, Jammu and Kashmir, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-30",
-   "deadline": "2026-11-30",
-   "stipend_or_prize": "₹10,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/competitions/designathon-a-five-track-code-report-design-challenge-shri-mata-vaishno-devi-university-smvdu-katra-1773427",
-   "source": "unstop",
-   "date_added": "2026-11-27",
    "verified": true
   },
   {
@@ -941,27 +786,6 @@
    "verified": true
   },
   {
-   "id": "1a4b42f8e17a",
-   "title": "Protothon 2k26",
-   "organiser": "Hindustan Institute of Technology and Science (HITS), Chennai",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "offline",
-   "location": "Chennai, Tamil Nadu, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-09",
-   "deadline": "2026-12-01",
-   "stipend_or_prize": "",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/protothon-2k26-hindustan-institute-of-technology-and-science-hits-chennai-1814983",
-   "source": "unstop",
-   "date_added": "2026-11-22",
-   "verified": true
-  },
-  {
    "id": "4d33c25291b3",
    "title": "R for Data Science",
    "organiser": "Computational Biology Facility, University of Liverpool:…",
@@ -1157,6 +981,27 @@
    "url": "https://udaya-2-o.devfolio.co/",
    "source": "devfolio",
    "date_added": "2026-11-25",
+   "verified": true
+  },
+  {
+   "id": "96848fe8e16f",
+   "title": "Designathon - A Five-Track, Code & Report Design Challenge",
+   "organiser": "Shri Mata Vaishno Devi University (SMVDU), Katra",
+   "type": "competition",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "Katra, Jammu and Kashmir, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2026-12-03",
+   "deadline": "2026-12-03",
+   "stipend_or_prize": "₹10,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/competitions/designathon-a-five-track-code-report-design-challenge-shri-mata-vaishno-devi-university-smvdu-katra-1773427",
+   "source": "unstop",
+   "date_added": "2026-11-27",
    "verified": true
   },
   {
@@ -1378,6 +1223,27 @@
    "verified": true
   },
   {
+   "id": "26e30281c13b",
+   "title": "ActTrident AI Hackathon 2026",
+   "organiser": "ActTrident",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-20",
+   "deadline": "2026-12-05",
+   "stipend_or_prize": "₹65,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate",
+   "url": "https://unstop.com/hackathons/acttrident-ai-hackathon-2026-trident-shield-2026-acttrident-1830923",
+   "source": "unstop",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
    "id": "770b6a2c13c6",
    "title": "AgentX",
    "organiser": "AI Academia",
@@ -1499,48 +1365,6 @@
    "stipend_or_prize": "Certificates",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/elucode-9-edulinkup-1822884",
-   "source": "unstop",
-   "date_added": "2026-11-22",
-   "verified": true
-  },
-  {
-   "id": "b6dccc9108c9",
-   "title": "Spectrum 1.0 – 24 Hour National Level Hackathon",
-   "organiser": "Guru Nanak Dev Engineering College Bidar",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Bidar, Karnataka, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-06",
-   "deadline": "2026-12-06",
-   "stipend_or_prize": "₹40,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/hackathons/spectrum-10-24-hour-national-level-hackathon-guru-nanak-dev-engineering-college-bidar-1812368",
-   "source": "unstop",
-   "date_added": "2026-11-26",
-   "verified": true
-  },
-  {
-   "id": "a40c6b270c09",
-   "title": "Tauras by Revat: Crypto Trading Hackathon | Prove Your Edge, Then Trade It Live",
-   "organiser": "Revat Crypto Fund",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2027-03-09",
-   "deadline": "2026-12-06",
-   "stipend_or_prize": "Certificates",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/tauras-by-revat-crypto-trading-hackathon-prove-your-edge-then-trade-it-live-revat-crypto-fund-1820715",
    "source": "unstop",
    "date_added": "2026-11-22",
    "verified": true
@@ -1866,28 +1690,6 @@
    "notes": "Speakers: Robert Finn, Lisa Maier, Kiran Patil, Nassos Typas,"
   },
   {
-   "id": "0d1e666d8ac7",
-   "title": "Adaptics - Open Innovation Hackathon",
-   "organiser": "Makers Need More (MnM)",
-   "type": "hackathon",
-   "fields": [
-    "healthcare-ai",
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-12-11",
-   "deadline": "2026-12-09",
-   "stipend_or_prize": "₹5,484 in prizes",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/adaptics-open-innovation-hackathon-makers-need-more-mnm-1823604",
-   "source": "unstop",
-   "date_added": "2026-11-24",
-   "verified": true
-  },
-  {
    "id": "991cd5c5a207",
    "title": "Data Analyst Internship",
    "organiser": "TalentCV",
@@ -1951,6 +1753,27 @@
    "url": "https://www.ebi.ac.uk/training/events/mgnify-proteins-accessing-billions-metagenomic-protein-sequences-and-their-metadata",
    "source": "embl_ebi",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "afed0be09297",
+   "title": "Webinar - How to Get Your Salesforce AI Ready for Real Life",
+   "organiser": "ACL Digital",
+   "type": "webinar",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-09",
+   "deadline": "2026-12-09",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/workshops-webinars/webinar-agentic-solutions-poc-to-production-why-salesforce-org-health-decides-which-agents-go-live-ac-1817687",
+   "source": "unstop",
+   "date_added": "2026-11-28",
    "verified": true
   },
   {
@@ -2037,6 +1860,27 @@
    "url": "https://haxfinity.devfolio.co/",
    "source": "devfolio",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "07525ceca945",
+   "title": "Infriqa Design. Build. Operate. Challenge",
+   "organiser": "Infriqa",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-11",
+   "deadline": "2026-12-10",
+   "stipend_or_prize": "₹5,000 in prizes",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/infriqa-design-build-operate-challenge-infriqa-1829467",
+   "source": "unstop",
+   "date_added": "2026-11-28",
    "verified": true
   },
   {
@@ -2699,6 +2543,27 @@
    "verified": true
   },
   {
+   "id": "30d3d315d840",
+   "title": "Hackfinity27",
+   "organiser": "",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-12-16",
+   "end_date": "2026-12-19",
+   "deadline": "2026-12-15",
+   "stipend_or_prize": "",
+   "eligibility": "Teams of 1–3",
+   "url": "https://hackfinity27.devfolio.co/",
+   "source": "devfolio",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
    "id": "089be502787c",
    "title": "Singularity 2.0",
    "organiser": "KC College of Engineering and Management Studies and Research",
@@ -2845,6 +2710,28 @@
    "stipend_or_prize": "",
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/codathon-vortex-140-institute-of-chemical-technology-mumbai-1800622",
+   "source": "unstop",
+   "date_added": "2026-11-24",
+   "verified": true
+  },
+  {
+   "id": "0d1e666d8ac7",
+   "title": "Adaptics - Open Innovation Hackathon",
+   "organiser": "Makers Need More (MnM)",
+   "type": "hackathon",
+   "fields": [
+    "healthcare-ai",
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-22",
+   "deadline": "2026-12-20",
+   "stipend_or_prize": "₹5,484 in prizes",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/adaptics-open-innovation-hackathon-makers-need-more-mnm-1823604",
    "source": "unstop",
    "date_added": "2026-11-24",
    "verified": true
@@ -3011,7 +2898,7 @@
    "end_date": "2026-12-29",
    "deadline": "2026-12-25",
    "stipend_or_prize": "",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Arts, Commerce, Sciences & Others",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/hackathons/codepulse-48-national-hackathon-wecodecoders-1827866",
    "source": "unstop",
    "date_added": "2026-11-26",
@@ -3057,6 +2944,27 @@
    "url": "https://unstop.com/hackathons/univion-chronos-de-novo-sieeds-1826867",
    "source": "unstop",
    "date_added": "2026-11-26",
+   "verified": true
+  },
+  {
+   "id": "3a5dccf5c5eb",
+   "title": "CodeAtScale - National Hackathon",
+   "organiser": "HackWithPune",
+   "type": "hackathon",
+   "fields": [
+    "ml-ai"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2027-01-07",
+   "deadline": "2026-12-27",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/codeatscale-national-hackathon-hackwithpune-1830705",
+   "source": "unstop",
+   "date_added": "2026-11-28",
    "verified": true
   },
   {
@@ -3120,6 +3028,111 @@
    "url": "https://unstop.com/hackathons/ai-codestorm-2026-proton-solutions-1826401",
    "source": "unstop",
    "date_added": "2026-11-25",
+   "verified": true
+  },
+  {
+   "id": "6fac836ddc92",
+   "title": "Craft N Code (Andhra Pradesh)",
+   "organiser": "International Institute of Information Technology (IIIT), Bhubaneswar",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Bhubaneswar, Odisha, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-02-06",
+   "deadline": "2026-12-31",
+   "stipend_or_prize": "₹50,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/craft-n-code-andhra-pradesh-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technol-1831381",
+   "source": "unstop",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
+   "id": "dc295e9e823d",
+   "title": "Craft N Code (Bihar)",
+   "organiser": "International Institute of Information Technology (IIIT), Bhubaneswar",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Bhubaneswar, Odisha, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-02-06",
+   "deadline": "2026-12-31",
+   "stipend_or_prize": "₹50,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/craft-n-code-bihar-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iiit--1831393",
+   "source": "unstop",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
+   "id": "408cebe29370",
+   "title": "Craft N Code (Jharkhand)",
+   "organiser": "International Institute of Information Technology (IIIT), Bhubaneswar",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Bhubaneswar, Odisha, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-02-06",
+   "deadline": "2026-12-31",
+   "stipend_or_prize": "₹50,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/craft-n-code-jharkhand-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-i-1831390",
+   "source": "unstop",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
+   "id": "f0f692eb1543",
+   "title": "Craft N Code (Madhya Pradesh)",
+   "organiser": "International Institute of Information Technology (IIIT), Bhubaneswar",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Bhubaneswar, Odisha, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-02-06",
+   "deadline": "2026-12-31",
+   "stipend_or_prize": "₹50,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/craft-n-code-madhya-pradesh-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technol-1831389",
+   "source": "unstop",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
+   "id": "97af20f2ce70",
+   "title": "Craft N Code (Punjab)",
+   "organiser": "International Institute of Information Technology (IIIT), Bhubaneswar",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Bhubaneswar, Odisha, India",
+   "region": "India",
+   "start_date": null,
+   "end_date": "2027-02-06",
+   "deadline": "2026-12-31",
+   "stipend_or_prize": "₹50,000 in prizes",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/craft-n-code-punjab-d3-2026-tech-fest-iiit-bhubaneswar-international-institute-of-information-technology-iiit-1831394",
+   "source": "unstop",
+   "date_added": "2026-11-28",
    "verified": true
   },
   {
@@ -6326,29 +6339,6 @@
    "notes": "Speakers: Katie Bentley, James Sharpe, Alejandro Torres-Sánchez, Alexandria Volkening"
   },
   {
-   "id": "264d071ce15e",
-   "title": "Data science for life scientists",
-   "organiser": "EMBL-EBI",
-   "type": "workshop",
-   "fields": [
-    "ml-ai",
-    "biotech"
-   ],
-   "mode": "offline",
-   "location": "Hinxton, UK",
-   "region": "International",
-   "start_date": "2027-06-13",
-   "end_date": "2027-06-17",
-   "deadline": "2027-06-13",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.ebi.ac.uk/training/events/data-science-life-scientists-2027",
-   "source": "embl",
-   "date_added": "2026-11-20",
-   "verified": true,
-   "notes": "Speakers: Charlotte Courtney"
-  },
-  {
    "id": "cbd6e8959384",
    "title": "Measuring translational dynamics by ribosome profiling",
    "organiser": "EMBO / EMBL",
@@ -6413,6 +6403,28 @@
    "date_added": "2026-11-20",
    "verified": false,
    "notes": "Cost: Charge"
+  },
+  {
+   "id": "f4a0e4dfc786",
+   "title": "Data science for life scientists",
+   "organiser": "European Bioinformatics Institute (EBI)",
+   "type": "workshop",
+   "fields": [
+    "biotech",
+    "ml-ai"
+   ],
+   "mode": "offline",
+   "location": "United Kingdom",
+   "region": "International",
+   "start_date": "2027-06-14",
+   "end_date": "2027-06-18",
+   "deadline": "2027-06-14",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/data-science-life-scientists-2027",
+   "source": "embl_ebi",
+   "date_added": "2026-11-28",
+   "verified": true
   },
   {
    "id": "5d656292ffd3",
@@ -6525,29 +6537,6 @@
    "verified": true
   },
   {
-   "id": "eae6c951ba00",
-   "title": "Exploring microbial communities through metagenomics bioinformatics",
-   "organiser": "EMBL",
-   "type": "workshop",
-   "fields": [
-    "bioinformatics",
-    "genomics"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2027-06-27",
-   "end_date": "2027-07-01",
-   "deadline": "2027-06-27",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-2027",
-   "source": "embl",
-   "date_added": "2026-11-20",
-   "verified": true,
-   "notes": "Speakers: Sophie Spencer"
-  },
-  {
    "id": "1d40e5c1dfe0",
    "title": "(2027) Fundamental Spatial Image Analysis: Online",
    "organiser": "Canadian Bioinformatics Workshops (CBW)",
@@ -6610,6 +6599,28 @@
    "date_added": "2026-11-20",
    "verified": true,
    "notes": "Speakers: Florian Jug, Anna Kreshuk, Constantin Pape, Martin Weigert"
+  },
+  {
+   "id": "cef8dd2dfe10",
+   "title": "Exploring microbial communities through metagenomics bioinformatics",
+   "organiser": "European Bioinformatics Institute (EBI)",
+   "type": "workshop",
+   "fields": [
+    "bioinformatics",
+    "genomics"
+   ],
+   "mode": "online",
+   "location": "United Kingdom",
+   "region": "Online",
+   "start_date": "2027-06-28",
+   "end_date": "2027-07-02",
+   "deadline": "2027-06-28",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-2027",
+   "source": "embl_ebi",
+   "date_added": "2026-11-28",
+   "verified": true
   },
   {
    "id": "e521a83fe646",
@@ -6996,10 +7007,10 @@
    "verified": false
   },
   {
-   "id": "d429b4fc31e9",
+   "id": "200d05fbebba",
    "title": "Interpreting the effects of genetic variants on protein structure and function",
-   "organiser": "EMBL",
-   "type": "workshop",
+   "organiser": "European Bioinformatics Institute (EBI)",
+   "type": "webinar",
    "fields": [
     "genomics",
     "protein"
@@ -7007,16 +7018,15 @@
    "mode": "online",
    "location": "Online",
    "region": "Online",
-   "start_date": "2027-09-22",
-   "end_date": "2027-09-22",
-   "deadline": "2027-09-22",
+   "start_date": "2027-09-23",
+   "end_date": "2027-09-23",
+   "deadline": "2027-09-23",
    "stipend_or_prize": "",
    "eligibility": "",
    "url": "https://www.ebi.ac.uk/training/events/interpreting-effects-genetic-variants-2027",
-   "source": "embl",
-   "date_added": "2026-11-20",
-   "verified": true,
-   "notes": "Speakers: Toke Labiyi"
+   "source": "embl_ebi",
+   "date_added": "2026-11-28",
+   "verified": true
   },
   {
    "id": "f5192298ad05",
@@ -7426,6 +7436,29 @@
    "date_added": "2026-11-20",
    "verified": true,
    "notes": "Speakers: Deborah Bourc'his, Josefa González Perez, Joseph Peters, Leandro Quadrana"
+  },
+  {
+   "id": "846635883a63",
+   "title": "Small molecules and their protein targets: interactions, function, and classification",
+   "organiser": "EMBL",
+   "type": "workshop",
+   "fields": [
+    "protein",
+    "drug-discovery"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-11-04",
+   "end_date": "2027-11-04",
+   "deadline": "2027-11-04",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/small-molecules-2027",
+   "source": "embl",
+   "date_added": "2026-11-28",
+   "verified": true,
+   "notes": "Speakers: Sheila Obilo"
   },
   {
    "id": "b94c1f1eaff5",
