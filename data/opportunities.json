@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-26T21:36:35+00:00",
-  "total": 359,
+  "last_updated": "2026-11-27T08:39:18+00:00",
+  "total": 356,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -9,11 +9,11 @@
    },
    "unstop": {
     "status": "ok",
-    "count": 99
+    "count": 97
    },
    "hackerearth": {
     "status": "ok",
-    "count": 2
+    "count": 1
    },
    "devfolio": {
     "status": "ok",
@@ -168,27 +168,6 @@
  },
  "items": [
   {
-   "id": "f80919b515be",
-   "title": "Beyond Software Development: Exploring Higher Studies and Research in AI/ML",
-   "organiser": "TechBairn Research",
-   "type": "workshop",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-11-27",
-   "deadline": "2026-11-27",
-   "stipend_or_prize": "",
-   "eligibility": "All",
-   "url": "https://unstop.com/workshops-webinars/beyond-software-development-exploring-higher-studies-and-research-in-aiml-techbairn-research-1808042",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "d422f37a92a3",
    "title": "Ciencia FAIR: manejo de datos, metadatos e inteligencia artificial en las ciencias de la vida",
    "organiser": "ELIXIR, CCG-UNAM",
@@ -237,27 +216,6 @@
    "verified": false
   },
   {
-   "id": "730c69734ace",
-   "title": "Groww Next ‘26",
-   "organiser": "HackerEarth",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2026-11-13",
-   "end_date": "2026-11-27",
-   "deadline": "2026-11-27",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.hackerearth.com/challenges/hackathon/groww-next-2026/",
-   "source": "hackerearth",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "2b710b356b9d",
    "title": "Integrating multi-omics data using MOFA2",
    "organiser": "VIB",
@@ -278,27 +236,6 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
-  },
-  {
-   "id": "024f5c9a7a90",
-   "title": "Learn, Think, Leverage: Building Your Career in the AI Era",
-   "organiser": "TechBairn Research",
-   "type": "workshop",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-11-27",
-   "deadline": "2026-11-27",
-   "stipend_or_prize": "",
-   "eligibility": "All",
-   "url": "https://unstop.com/workshops-webinars/learn-think-leverage-building-your-career-in-the-ai-era-techbairn-research-1808022",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
   },
   {
    "id": "5f8480aed464",
@@ -384,6 +321,27 @@
    "url": "https://unstop.com/hackathons/ai-powered-career-development-hackathon-unsaidtalks-education-1821954",
    "source": "unstop",
    "date_added": "2026-11-22",
+   "verified": true
+  },
+  {
+   "id": "0ef699afafbb",
+   "title": "CodeHive Rivalry Night",
+   "organiser": "Code Hive",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-11-28",
+   "deadline": "2026-11-28",
+   "stipend_or_prize": "",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management, Medical, Law, Arts, Commerce, Sciences & Others",
+   "url": "https://unstop.com/hackathons/codehive-rivalry-night-code-hive-1830429",
+   "source": "unstop",
+   "date_added": "2026-11-27",
    "verified": true
   },
   {
@@ -844,7 +802,7 @@
    "end_date": "2026-12-04",
    "deadline": "2026-11-30",
    "stipend_or_prize": "₹300,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate",
+   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Management",
    "url": "https://unstop.com/hackathons/logithon-2026-softlink-global-ltd-1827287",
    "source": "unstop",
    "date_added": "2026-11-25",
@@ -1996,27 +1954,6 @@
    "verified": true
   },
   {
-   "id": "d54755df585f",
-   "title": "Webinar : Agentic Solutions POC to Production: Why Salesforce Org Health Decides Which Agents Go Live",
-   "organiser": "ACL Digital",
-   "type": "webinar",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-12-09",
-   "deadline": "2026-12-09",
-   "stipend_or_prize": "",
-   "eligibility": "All",
-   "url": "https://unstop.com/workshops-webinars/webinar-agentic-solutions-poc-to-production-why-salesforce-org-health-decides-which-agents-go-live-ac-1817687",
-   "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "de3211cb9fd7",
    "title": "Agentic AI Hackathon 2026",
    "organiser": "Proton Solutions",
@@ -2400,27 +2337,6 @@
    "url": "https://unstop.com/hackathons/dry-run-dsa-challenge-ibs-hyderabad-1829921",
    "source": "unstop",
    "date_added": "2026-11-27",
-   "verified": true
-  },
-  {
-   "id": "d3ce0c13c15d",
-   "title": "Merry Shipmas Bengaluru: Christmas AI Hackathon",
-   "organiser": "NERDCONF",
-   "type": "hackathon",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Bangalore, Karnataka, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-12",
-   "deadline": "2026-12-12",
-   "stipend_or_prize": "",
-   "eligibility": "All",
-   "url": "https://unstop.com/hackathons/merry-shipmas-bengaluru-christmas-ai-hackathon-nerdconf-1820028",
-   "source": "unstop",
-   "date_added": "2026-11-20",
    "verified": true
   },
   {
@@ -3289,6 +3205,27 @@
    "url": "https://unstop.com/hackathons/hacknexus-mastermind-research-technologies-1746846",
    "source": "unstop",
    "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "ce1a3e1100d8",
+   "title": "InteractUp Nexus National Hackathon",
+   "organiser": "InteractUp",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2026-12-31",
+   "deadline": "2026-12-31",
+   "stipend_or_prize": "₹50,000 in prizes",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/interactup-nexus-national-hackathon-interactup-1828645",
+   "source": "unstop",
+   "date_added": "2026-11-27",
    "verified": true
   },
   {
