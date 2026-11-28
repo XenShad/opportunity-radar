@@ -1,7 +1,7 @@
 {
  "meta": {
-  "last_updated": "2026-11-27T21:21:02+00:00",
-  "total": 358,
+  "last_updated": "2026-11-28T07:53:27+00:00",
+  "total": 359,
   "sources": {
    "mlh": {
     "status": "ok",
@@ -9,7 +9,7 @@
    },
    "unstop": {
     "status": "ok",
-    "count": 101
+    "count": 100
    },
    "hackerearth": {
     "status": "ok",
@@ -31,11 +31,11 @@
    },
    "embl_ebi": {
     "status": "ok",
-    "count": 23
+    "count": 25
    },
    "tess": {
     "status": "ok",
-    "count": 131
+    "count": 136
    },
    "galaxy": {
     "status": "ok",
@@ -252,27 +252,6 @@
    "verified": true
   },
   {
-   "id": "943228280f0b",
-   "title": "Data Analyst + AI Workshop: Build Insights That Drive Business Decisions",
-   "organiser": "RaiseTech",
-   "type": "workshop",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "offline",
-   "location": "Hyderabad, Telangana, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-11-28",
-   "deadline": "2026-11-28",
-   "stipend_or_prize": "",
-   "eligibility": "Experienced Professionals, Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Medical, Law, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/workshops-webinars/beyond-dashboards-ai-driven-business-intelligence-decision-making-raisetech-1826437",
-   "source": "unstop",
-   "date_added": "2026-11-28",
-   "verified": true
-  },
-  {
    "id": "3cf27779f8e8",
    "title": "HackEPS",
    "organiser": "MLH member event",
@@ -355,6 +334,27 @@
    "eligibility": "Engineering Students, Postgraduate, Undergraduate, Arts, Commerce, Sciences & Others",
    "url": "https://unstop.com/internships/bioinformatics-internship-xenoibiotech-pvt-ltd-1811934",
    "source": "unstop",
+   "date_added": "2026-11-20",
+   "verified": true
+  },
+  {
+   "id": "367a2d6e09e4",
+   "title": "Clash of Commits",
+   "organiser": "",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "offline",
+   "location": "VIT Chennai, Kelambakkam - Vandalur Road, Chennai, Tamil Nadu, India",
+   "region": "India",
+   "start_date": "2026-12-04",
+   "end_date": "2026-12-05",
+   "deadline": "2026-11-29",
+   "stipend_or_prize": "",
+   "eligibility": "Teams of 3–5",
+   "url": "https://clash-of-commits.devfolio.co/",
+   "source": "devfolio",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -461,27 +461,6 @@
    "eligibility": "All",
    "url": "https://unstop.com/workshops-webinars/career-guidance-for-aspiring-developers-exploring-aiml-research-higher-studies-techbairn-research-1808023",
    "source": "unstop",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "367a2d6e09e4",
-   "title": "Clash of Commits",
-   "organiser": "",
-   "type": "hackathon",
-   "fields": [
-    "general"
-   ],
-   "mode": "offline",
-   "location": "VIT Chennai, Kelambakkam - Vandalur Road, Chennai, Tamil Nadu, India",
-   "region": "India",
-   "start_date": "2026-12-04",
-   "end_date": "2026-12-05",
-   "deadline": "2026-11-30",
-   "stipend_or_prize": "",
-   "eligibility": "Teams of 3–5",
-   "url": "https://clash-of-commits.devfolio.co/",
-   "source": "devfolio",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -761,28 +740,6 @@
    "url": "https://unstop.com/internships/machine-learning-internship-codemonk-1816258",
    "source": "unstop",
    "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "e659a99c6e90",
-   "title": "Operation Blackout",
-   "organiser": "R.V. College of Engineering (RVCE), Bangalore",
-   "type": "hackathon",
-   "fields": [
-    "bioinformatics",
-    "genomics"
-   ],
-   "mode": "offline",
-   "location": "Bangalore Urban, Karnataka, India",
-   "region": "India",
-   "start_date": null,
-   "end_date": "2026-12-01",
-   "deadline": "2026-12-01",
-   "stipend_or_prize": "₹35,000 in prizes",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate",
-   "url": "https://unstop.com/hackathons/operation-blackout-react-2026-rv-college-of-engineering-rvce-bangalore-1818820",
-   "source": "unstop",
-   "date_added": "2026-11-22",
    "verified": true
   },
   {
@@ -1456,6 +1413,29 @@
    "verified": false
   },
   {
+   "id": "429a12496a32",
+   "title": "MGnify Proteins: accessing billions of metagenomic protein sequences and their metadata",
+   "organiser": "European Bioinformatics Institute (EBI)",
+   "type": "webinar",
+   "fields": [
+    "genomics",
+    "protein",
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2026-12-07",
+   "end_date": "2026-12-07",
+   "deadline": "2026-12-07",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/mgnify-proteins-accessing-billions-metagenomic-protein-sequences-and-their-metadata",
+   "source": "embl_ebi",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
    "id": "e5a3df166fbe",
    "title": "Nextflow for reproducible and automated data analysis",
    "organiser": "VIB",
@@ -1690,27 +1670,6 @@
    "notes": "Speakers: Robert Finn, Lisa Maier, Kiran Patil, Nassos Typas,"
   },
   {
-   "id": "991cd5c5a207",
-   "title": "Data Analyst Internship",
-   "organiser": "TalentCV",
-   "type": "internship",
-   "fields": [
-    "ml-ai"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": null,
-   "end_date": "2026-12-09",
-   "deadline": "2026-12-09",
-   "stipend_or_prize": "₹5,000–₹8,000/month stipend",
-   "eligibility": "Engineering Students, Postgraduate, Undergraduate, Fresher, Management, Arts, Commerce, Sciences & Others",
-   "url": "https://unstop.com/internships/data-analyst-internship-talentcv-1827101",
-   "source": "unstop",
-   "date_added": "2026-11-27",
-   "verified": true
-  },
-  {
    "id": "5008ab0b91c0",
    "title": "ETHChiangmai & Longevity Hackathon 2026",
    "organiser": "",
@@ -1729,29 +1688,6 @@
    "eligibility": "Teams of 1–4",
    "url": "https://chiangmai.devfolio.co/",
    "source": "devfolio",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
-   "id": "3108689230db",
-   "title": "MGnify Proteins: accessing billions of metagenomic protein sequences and their metadata",
-   "organiser": "European Bioinformatics Institute (EBI)",
-   "type": "webinar",
-   "fields": [
-    "genomics",
-    "protein",
-    "biotech"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2026-12-09",
-   "end_date": "2026-12-09",
-   "deadline": "2026-12-09",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.ebi.ac.uk/training/events/mgnify-proteins-accessing-billions-metagenomic-protein-sequences-and-their-metadata",
-   "source": "embl_ebi",
    "date_added": "2026-11-20",
    "verified": true
   },
@@ -3456,6 +3392,27 @@
    "verified": true
   },
   {
+   "id": "906386842b57",
+   "title": "DSA WAR",
+   "organiser": "GLA University (GLAU), Uttar Pradesh",
+   "type": "hackathon",
+   "fields": [
+    "general"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": null,
+   "end_date": "2027-01-10",
+   "deadline": "2027-01-10",
+   "stipend_or_prize": "",
+   "eligibility": "All",
+   "url": "https://unstop.com/hackathons/dsa-war-gla-university-glau-uttar-pradesh-1831784",
+   "source": "unstop",
+   "date_added": "2026-11-28",
+   "verified": true
+  },
+  {
    "id": "47c547eaa1ac",
    "title": "Free Live: Claude Masterclass for Students - Projects, Artifacts and Research (2 Hours)",
    "organiser": "Unite Wings Educational Confederation",
@@ -3908,6 +3865,28 @@
    "date_added": "2026-11-20",
    "verified": true,
    "notes": "Applications open 2026-12-20"
+  },
+  {
+   "id": "e1c4f78d02df",
+   "title": "Introducing the new and customisable UniProt feature viewer, powered by ProtVista v5.0",
+   "organiser": "European Bioinformatics Institute (EBI)",
+   "type": "webinar",
+   "fields": [
+    "multi-omics",
+    "protein"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-01-21",
+   "end_date": "2027-01-21",
+   "deadline": "2027-01-21",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/introducing-new-and-customisable-uniprot-feature-viewer-powered-protvista-v50",
+   "source": "embl_ebi",
+   "date_added": "2026-11-28",
+   "verified": true
   },
   {
    "id": "7842a929abf8",
@@ -4640,6 +4619,28 @@
    "verified": false
   },
   {
+   "id": "b797d1325a3b",
+   "title": "Protected: Spatial Omics Analysis – MGC/BioSB course – Application procedure – 2027",
+   "organiser": "",
+   "type": "workshop",
+   "fields": [
+    "single-cell",
+    "multi-omics"
+   ],
+   "mode": "offline",
+   "location": "LUMC, LUMC",
+   "region": "International",
+   "start_date": "2027-02-15",
+   "end_date": "2027-02-18",
+   "deadline": "2027-02-15",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.dtls.nl/?post_type=course&p=21320",
+   "source": "tess",
+   "date_added": "2026-11-28",
+   "verified": false
+  },
+  {
    "id": "275a4afa5e70",
    "title": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
    "organiser": "EMBL",
@@ -5006,6 +5007,27 @@
    "url": "https://training.vib.be/all-trainings/research-data-management-rdm-life-sciences-essentials-9",
    "source": "tess",
    "date_added": "2026-11-20",
+   "verified": false
+  },
+  {
+   "id": "f7fd53b5d045",
+   "title": "Programming in Python: Master your first project",
+   "organiser": "VIB",
+   "type": "workshop",
+   "fields": [
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-03-11",
+   "end_date": "2027-04-08",
+   "deadline": "2027-03-11",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://training.vib.be/all-trainings/programming-python-master-your-first-project-1",
+   "source": "tess",
+   "date_added": "2026-11-28",
    "verified": false
   },
   {
@@ -6250,29 +6272,6 @@
    "verified": false
   },
   {
-   "id": "baf5c8dc6881",
-   "title": "From sequences to structures: protein characterisation using EMBL-EBI APIs",
-   "organiser": "European Bioinformatics Institute (EBI)",
-   "type": "webinar",
-   "fields": [
-    "bioinformatics",
-    "protein",
-    "biotech"
-   ],
-   "mode": "online",
-   "location": "Online",
-   "region": "Online",
-   "start_date": "2027-06-09",
-   "end_date": "2027-06-09",
-   "deadline": "2027-06-09",
-   "stipend_or_prize": "",
-   "eligibility": "",
-   "url": "https://www.ebi.ac.uk/training/events/sequences-structures-2027",
-   "source": "embl_ebi",
-   "date_added": "2026-11-20",
-   "verified": true
-  },
-  {
    "id": "1dd32a94fd2f",
    "title": "Quantitative bioimage analysis in QuPath: Essentials",
    "organiser": "VIB",
@@ -6293,6 +6292,29 @@
    "source": "tess",
    "date_added": "2026-11-20",
    "verified": false
+  },
+  {
+   "id": "fe37e68f8056",
+   "title": "From sequences to structures: protein characterisation using EMBL-EBI APIs",
+   "organiser": "European Bioinformatics Institute (EBI)",
+   "type": "webinar",
+   "fields": [
+    "bioinformatics",
+    "protein",
+    "biotech"
+   ],
+   "mode": "online",
+   "location": "Online",
+   "region": "Online",
+   "start_date": "2027-06-10",
+   "end_date": "2027-06-10",
+   "deadline": "2027-06-10",
+   "stipend_or_prize": "",
+   "eligibility": "",
+   "url": "https://www.ebi.ac.uk/training/events/sequences-structures-2027",
+   "source": "embl_ebi",
+   "date_added": "2026-11-28",
+   "verified": true
   },
   {
    "id": "b14f54606612",
@@ -7438,13 +7460,16 @@
    "notes": "Speakers: Deborah Bourc'his, Josefa González Perez, Joseph Peters, Leandro Quadrana"
   },
   {
-   "id": "846635883a63",
+   "id": "ad0f5a21ea80",
    "title": "Small molecules and their protein targets: interactions, function, and classification",
-   "organiser": "EMBL",
-   "type": "workshop",
+   "organiser": "European Bioinformatics Institute (EBI)",
+   "type": "webinar",
    "fields": [
+    "genomics",
     "protein",
-    "drug-discovery"
+    "drug-discovery",
+    "healthcare-ai",
+    "biotech"
    ],
    "mode": "online",
    "location": "Online",
@@ -7455,10 +7480,9 @@
    "stipend_or_prize": "",
    "eligibility": "",
    "url": "https://www.ebi.ac.uk/training/events/small-molecules-2027",
-   "source": "embl",
+   "source": "embl_ebi",
    "date_added": "2026-11-28",
-   "verified": true,
-   "notes": "Speakers: Sheila Obilo"
+   "verified": true
   },
   {
    "id": "b94c1f1eaff5",
